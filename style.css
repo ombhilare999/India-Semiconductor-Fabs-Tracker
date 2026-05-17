@@ -955,10 +955,9 @@ footer a:hover { text-decoration: underline; }
 
   .news-item-title { font-size: 0.73rem; }
 
-  /* Footer — single line */
+  /* Footer — single line, show managed-by, hide AI note */
   footer { padding: 0 14px; font-size: 0.62rem; }
-  footer span:first-child { display: none; }
-  .footer-note { width: 100%; justify-content: center; }
+  .footer-note { display: none; }
 }
 
 /* ── Scrollbar ────────────────────────────────────────────── */
