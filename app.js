@@ -17,6 +17,8 @@ let map;
 let tileLayer;
 let newsData = {};
 let clusterGroup;
+let allFabs = [];
+let markersByFab = {}; // fabId → marker
 
 // ── Theme ──────────────────────────────────────────────────
 function getTheme() {
@@ -288,8 +290,34 @@ async function loadFabs() {
       d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
   }
 
+  allFabs = fabs;
+  fabs.forEach(fab => {
+    const marker = buildMarker(fab);
+    markersByFab[fab.id] = marker;
+    clusterGroup.addLayer(marker);
+  });
+
   updateStats(fabs);
-  fabs.forEach(fab => clusterGroup.addLayer(buildMarker(fab)));
+  initFilterTabs();
+}
+
+// ── Filter tabs ───────────────────────────────────────────
+function filterMarkers(category) {
+  clusterGroup.clearLayers();
+  const visible = category === 'all'
+    ? allFabs
+    : allFabs.filter(f => f.category === category);
+  visible.forEach(fab => clusterGroup.addLayer(markersByFab[fab.id]));
+}
+
+function initFilterTabs() {
+  document.querySelectorAll('.filter-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      filterMarkers(tab.dataset.category);
+    });
+  });
 }
 
 // ── Boot ──────────────────────────────────────────────────

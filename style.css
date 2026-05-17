@@ -27,6 +27,7 @@
   --blue-glow:     rgba(79, 142, 247, 0.5);
 
   --header-h:      64px;
+  --filter-h:      44px;
   --footer-h:      44px;
   --panel-w:       340px;
 }
@@ -214,10 +215,59 @@ header {
   background: var(--cyan-dim);
 }
 
+/* ── Filter bar ───────────────────────────────────────────── */
+.filter-bar {
+  position: fixed;
+  top: var(--header-h);
+  left: 0; right: 0;
+  height: var(--filter-h);
+  z-index: 999;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.filter-bar::-webkit-scrollbar { display: none; }
+
+.filter-tab {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: 'Orbitron', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  padding: 5px 13px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.filter-tab:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: var(--cyan-dim);
+}
+
+.filter-tab.active {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  box-shadow: 0 0 10px var(--cyan-glow);
+}
+
 /* ── Main layout ──────────────────────────────────────────── */
 main {
   position: fixed;
-  top: var(--header-h);
+  top: calc(var(--header-h) + var(--filter-h));
   bottom: var(--footer-h);
   left: 0; right: 0;
   display: flex;
@@ -677,6 +727,11 @@ footer a:hover { text-decoration: underline; }
   :root {
     --footer-h: 38px;
   }
+
+  /* Filter bar — smaller tabs, horizontally scrollable */
+  .filter-bar { height: 38px; padding: 0 12px; gap: 5px; }
+  .filter-tab  { font-size: 0.52rem; padding: 4px 10px; }
+  :root { --filter-h: 38px; }
 
   /* Header — keep logo + toggle, hide everything else */
   .header-inner { padding: 0 14px; gap: 8px; }
