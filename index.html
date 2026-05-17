@@ -48,17 +48,20 @@
 
   <!-- FILTER BAR -->
   <nav class="filter-bar" id="filterBar">
-    <button class="filter-tab active" data-category="all">All</button>
-    <button class="filter-tab" data-category="wafer-fab">Wafer Fab</button>
-    <button class="filter-tab" data-category="osat">OSAT / Packaging</button>
-    <button class="filter-tab" data-category="compound-fab">Compound Semi</button>
-    <button class="filter-tab" data-category="advanced-packaging">Advanced Packaging</button>
-    <button class="filter-tab" data-category="discrete-power">Discrete Power</button>
+    <div class="filter-tabs-scroll">
+      <button class="filter-tab active" data-category="all">All</button>
+      <button class="filter-tab" data-category="wafer-fab">Wafer Fab</button>
+      <button class="filter-tab" data-category="osat">OSAT / Packaging</button>
+      <button class="filter-tab" data-category="compound-fab">Compound Semi</button>
+      <button class="filter-tab" data-category="advanced-packaging">Advanced Packaging</button>
+      <button class="filter-tab" data-category="discrete-power">Discrete Power</button>
+    </div>
+    <button class="view-toggle-btn" id="viewToggleBtn" title="Switch to timeline view">TIMELINE</button>
   </nav>
 
   <!-- MAIN -->
   <main>
-    <div class="map-wrap">
+    <div class="map-wrap" id="mapWrap">
       <div id="map"></div>
 
       <!-- Legend -->
@@ -100,6 +103,11 @@
       </div>
     </div>
 
+    <!-- Timeline view (replaces map when active) -->
+    <div class="timeline-view" id="timelineView">
+      <svg id="timelineSvg" class="timeline-svg"></svg>
+    </div>
+
     <!-- Detail panel -->
     <aside class="detail-panel glass" id="detailPanel">
       <div class="sheet-handle"></div>
@@ -113,6 +121,7 @@
         </div>
         <p>Hover or tap a marker<br/>to explore a facility</p>
         <p class="placeholder-sub">Tracking <strong id="totalCount">—</strong> semiconductor facilities across India</p>
+        <div class="ism-feed" id="ismFeed"></div>
       </div>
 
       <div class="detail-content" id="detailContent" style="display:none">
@@ -140,6 +149,10 @@
             <div class="d-label">END MARKETS</div>
             <div class="d-value" id="dEndMarkets"></div>
           </div>
+          <div class="d-cell">
+            <div class="d-label">CAPACITY</div>
+            <div class="d-value" id="dCapacity"></div>
+          </div>
           <div class="d-cell full">
             <div class="d-label">INVESTMENT</div>
             <div class="d-value accent-val" id="dInvestment"></div>
@@ -147,6 +160,7 @@
         </div>
 
         <div class="d-brief" id="dBrief"></div>
+        <div class="d-links" id="dLinks"></div>
 
         <div class="news-section" id="newsSection" style="display:none">
           <div class="news-header">

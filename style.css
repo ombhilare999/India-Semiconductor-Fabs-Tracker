@@ -227,14 +227,23 @@ header {
   backdrop-filter: blur(20px);
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 0 16px;
-  overflow-x: auto;
-  scrollbar-width: none;
+  overflow: hidden;
   transition: background 0.3s, border-color 0.3s;
 }
 
-.filter-bar::-webkit-scrollbar { display: none; }
+.filter-tabs-scroll {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 0 16px;
+  height: 100%;
+}
+
+.filter-tabs-scroll::-webkit-scrollbar { display: none; }
 
 .filter-tab {
   flex-shrink: 0;
@@ -263,6 +272,62 @@ header {
   background: var(--cyan-dim);
   box-shadow: 0 0 10px var(--cyan-glow);
 }
+
+.view-toggle-btn {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: 'Orbitron', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  padding: 5px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  margin-right: 12px;
+}
+
+.view-toggle-btn:hover,
+.view-toggle-btn.active {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  box-shadow: 0 0 10px var(--cyan-glow);
+}
+
+/* ── Timeline view ────────────────────────────────────────── */
+.timeline-view {
+  flex: 1;
+  position: relative;
+  overflow: auto;
+  background: var(--bg);
+  display: none;
+  padding: 20px 0 20px 20px;
+}
+
+.timeline-view.active { display: block; }
+
+.timeline-svg { display: block; }
+
+/* SVG element classes — use CSS fill/stroke so CSS vars work with theme switching */
+.tl-grid-line    { stroke: var(--border); stroke-width: 1; }
+.tl-now-line     { stroke: var(--cyan); stroke-width: 1.5; stroke-dasharray: 4 3; opacity: 0.55; }
+.tl-cat-bg       { fill: var(--cell-bg); }
+.tl-bar-producing { fill: var(--green); opacity: 0.2; }
+.tl-dot          { transition: opacity 0.15s; }
+.tl-dot-producing    { fill: var(--green); }
+.tl-dot-construction { fill: var(--amber); }
+.tl-dot-planned      { fill: var(--blue); }
+.tl-row-hover    { fill: transparent; cursor: pointer; }
+.tl-row-hover:hover { fill: var(--cyan); opacity: 0.05; }
+.tl-axis-label   { font-family: 'Orbitron', monospace; font-size: 10px; fill: var(--text-dim); }
+.tl-now-label    { font-family: 'Orbitron', monospace; font-size: 8px; fill: var(--cyan); letter-spacing: 0.1em; }
+.tl-cat-label    { font-family: 'Orbitron', monospace; font-size: 9px; fill: var(--cyan); letter-spacing: 0.1em; }
+.tl-fab-label    { font-family: 'Space Grotesk', sans-serif; font-size: 11px; fill: var(--text); cursor: pointer; }
+.tl-fab-label:hover  { fill: var(--text-bright); }
+.tl-year-tag     { font-family: 'Orbitron', monospace; font-size: 9px; fill: var(--text-dim); }
 
 /* ── Main layout ──────────────────────────────────────────── */
 main {
@@ -518,6 +583,90 @@ main {
   opacity: 0.88;
 }
 
+/* ── Links row ────────────────────────────────────────────── */
+.d-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 14px;
+}
+
+.d-link-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 13px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--cell-bg);
+  color: var(--text-dim);
+  font-size: 0.67rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.d-link-btn:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: var(--cyan-dim);
+}
+
+.d-link-btn.primary {
+  border-color: rgba(0,212,255,0.35);
+  color: var(--cyan);
+}
+
+/* ── ISM feed in placeholder ──────────────────────────────── */
+.ism-feed {
+  width: 100%;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.ism-feed-title {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.14em;
+  color: var(--cyan);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.ism-item {
+  display: block;
+  text-decoration: none;
+  background: var(--cell-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 11px;
+  margin-bottom: 6px;
+  transition: border-color 0.2s;
+}
+
+.ism-item:last-child { margin-bottom: 0; }
+.ism-item:hover { border-color: var(--cyan); }
+
+.ism-item-type {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.08em;
+  color: var(--cyan);
+  opacity: 0.75;
+  margin-bottom: 3px;
+}
+
+.ism-item-title {
+  font-size: 0.72rem;
+  color: var(--text);
+  line-height: 1.4;
+  margin-bottom: 3px;
+}
+
+.ism-item-date {
+  font-size: 0.62rem;
+  color: var(--text-dim);
+}
+
 .d-ai-note {
   display: flex;
   align-items: center;
@@ -729,8 +878,11 @@ footer a:hover { text-decoration: underline; }
   }
 
   /* Filter bar — smaller tabs, horizontally scrollable */
-  .filter-bar { height: 38px; padding: 0 12px; gap: 5px; }
+  .filter-bar { height: 38px; }
+  .filter-tabs-scroll { padding: 0 10px; gap: 5px; }
   .filter-tab  { font-size: 0.52rem; padding: 4px 10px; }
+  .view-toggle-btn { font-size: 0.52rem; padding: 4px 10px; margin-right: 8px; }
+  .timeline-view { padding: 12px 0 12px 10px; }
   :root { --filter-h: 38px; }
 
   /* Header — keep logo + toggle, hide everything else */

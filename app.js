@@ -18,7 +18,9 @@ let tileLayer;
 let newsData = {};
 let clusterGroup;
 let allFabs = [];
-let markersByFab = {}; // fabId → marker
+let markersByFab = {};
+let currentView = 'map';
+let ismNotifications = [];
 
 // ── Theme ──────────────────────────────────────────────────
 function getTheme() {
@@ -158,8 +160,18 @@ function showDetail(fab) {
   document.getElementById('dTechNode').textContent    = fab.techNode;
   document.getElementById('dChipTypes').textContent   = fab.chipTypes.join(', ');
   document.getElementById('dEndMarkets').textContent  = fab.endMarkets.join(', ');
+  document.getElementById('dCapacity').textContent    = fab.capacity || '—';
   document.getElementById('dInvestment').textContent  = fab.investment;
   document.getElementById('dBrief').textContent       = fab.brief;
+
+  // Links
+  const linksEl = document.getElementById('dLinks');
+  const newsUrl = `https://news.google.com/search?q=${encodeURIComponent(fab.newsQuery)}&hl=en-IN&gl=IN&ceid=IN:en`;
+  let linksHtml = `<a class="d-link-btn primary" href="${newsUrl}" target="_blank" rel="noopener noreferrer">Google News</a>`;
+  if (fab.links && fab.links.company) {
+    linksHtml += `<a class="d-link-btn" href="${fab.links.company}" target="_blank" rel="noopener noreferrer">Company Site</a>`;
+  }
+  linksEl.innerHTML = linksHtml;
 
   renderNews(fab.id);
 
@@ -170,7 +182,7 @@ function showDetail(fab) {
 
 function closePanel() {
   const panel = document.getElementById('detailPanel');
-  panel.style.transform = '';          // clear any inline swipe offset
+  panel.style.transform = '';
   panel.classList.remove('mobile-open');
   document.getElementById('detailContent').style.display = 'none';
   document.getElementById('detailPlaceholder').style.display = 'flex';
@@ -189,7 +201,7 @@ function initMobileGestures() {
 
   panel.addEventListener('touchmove', e => {
     lastY = e.touches[0].clientY;
-    const delta = Math.max(0, lastY - startY); // only follow downward
+    const delta = Math.max(0, lastY - startY);
     panel.style.transform = `translateY(${delta}px)`;
   }, { passive: true });
 
@@ -198,14 +210,24 @@ function initMobileGestures() {
     if (lastY - startY > 80) {
       closePanel();
     } else {
-      panel.style.transform = ''; // snap back
+      panel.style.transform = '';
     }
   });
 
-  // Tap on the map background closes the sheet
   map.on('click', () => {
     if (panel.classList.contains('mobile-open')) closePanel();
   });
+}
+
+// ── Investment helper ─────────────────────────────────────
+function computeInvestment(fabs) {
+  const totalM = fabs.reduce((s, f) => s + (f.investmentUSD || 0), 0);
+  if (totalM === 0) return 'N/A';
+  if (totalM >= 1000) {
+    const b = (totalM / 1000).toFixed(1).replace(/\.0$/, '');
+    return `~$${b}B+`;
+  }
+  return `~$${totalM}M+`;
 }
 
 // ── Stats ─────────────────────────────────────────────────
@@ -223,7 +245,6 @@ function updateStats(fabs) {
   document.getElementById('countPlanned').textContent      = counts.planned;
   document.getElementById('statTotal').textContent         = fabs.length;
   document.getElementById('statStates').textContent        = states.size;
-  document.getElementById('statInvestment').textContent    = '~$18B+';
   document.getElementById('totalCount').textContent        = fabs.length;
 }
 
@@ -266,21 +287,205 @@ function renderNews(fabId) {
   `).join('');
 }
 
+// ── ISM feed ──────────────────────────────────────────────
+function renderIsmFeed() {
+  const feed = document.getElementById('ismFeed');
+  if (!feed) return;
+
+  const items = ismNotifications.slice(0, 5);
+  if (items.length === 0) {
+    feed.innerHTML = '';
+    return;
+  }
+
+  feed.innerHTML =
+    `<div class="ism-feed-title">ISM NOTIFICATIONS</div>` +
+    items.map(n => {
+      const typeLabel = n.type === 'press-release' ? 'PRESS RELEASE' : 'NOTIFICATION';
+      const inner = `
+        <div class="ism-item-type">${typeLabel}</div>
+        <div class="ism-item-title">${n.title.length > 90 ? n.title.slice(0, 88) + '…' : n.title}</div>
+        <div class="ism-item-date">${n.date || ''}</div>`;
+      return n.pdfUrl
+        ? `<a class="ism-item" href="${n.pdfUrl}" target="_blank" rel="noopener noreferrer">${inner}</a>`
+        : `<div class="ism-item">${inner}</div>`;
+    }).join('');
+}
+
+// ── Timeline ──────────────────────────────────────────────
+const TL_CATEGORIES = [
+  { key: 'wafer-fab',          label: 'WAFER FAB' },
+  { key: 'osat',               label: 'OSAT / PACKAGING' },
+  { key: 'compound-fab',       label: 'COMPOUND SEMI' },
+  { key: 'advanced-packaging', label: 'ADVANCED PACKAGING' },
+  { key: 'discrete-power',     label: 'DISCRETE POWER' },
+];
+
+function renderTimeline(fabs) {
+  const YEAR_START = 1982;
+  const YEAR_END   = 2030;
+  const PX_PER_YR  = 20;
+  const LEFT_W     = 172;
+  const RIGHT_PAD  = 32;
+  const ROW_H      = 40;
+  const CAT_H      = 28;
+  const AXIS_H     = 40;
+  const DOT_R      = 7;
+  const TODAY      = new Date().getFullYear();
+
+  const yearToX = y => LEFT_W + (y - YEAR_START) * PX_PER_YR;
+  const svgW    = LEFT_W + (YEAR_END - YEAR_START) * PX_PER_YR + RIGHT_PAD;
+
+  // Calculate height
+  let svgH = AXIS_H;
+  TL_CATEGORIES.forEach(cat => {
+    const n = fabs.filter(f => f.category === cat.key).length;
+    if (n > 0) svgH += CAT_H + n * ROW_H;
+  });
+  svgH += 16;
+
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.getElementById('timelineSvg');
+  svg.setAttribute('width', svgW);
+  svg.setAttribute('height', svgH);
+  svg.innerHTML = '';
+
+  function el(tag, attrs) {
+    const e = document.createElementNS(ns, tag);
+    Object.entries(attrs).forEach(([k, v]) => e.setAttribute(k, v));
+    return e;
+  }
+
+  // Year grid lines + axis labels
+  for (let y = YEAR_START; y <= YEAR_END; y += 4) {
+    const x = yearToX(y);
+    svg.appendChild(el('line', { x1: x, y1: AXIS_H - 4, x2: x, y2: svgH - 16, class: 'tl-grid-line' }));
+    svg.appendChild(Object.assign(el('text', { x, y: AXIS_H - 10, 'text-anchor': 'middle', class: 'tl-axis-label' }), { textContent: y }));
+  }
+
+  // NOW line
+  const nowX = yearToX(TODAY);
+  svg.appendChild(el('line', { x1: nowX, y1: 4, x2: nowX, y2: svgH - 16, class: 'tl-now-line' }));
+  svg.appendChild(Object.assign(el('text', { x: nowX + 4, y: 14, class: 'tl-now-label' }), { textContent: 'NOW' }));
+
+  // Category rows
+  let curY = AXIS_H;
+  TL_CATEGORIES.forEach(cat => {
+    const catFabs = fabs.filter(f => f.category === cat.key);
+    if (catFabs.length === 0) return;
+
+    // Category header band
+    svg.appendChild(el('rect', { x: 0, y: curY, width: svgW, height: CAT_H, class: 'tl-cat-bg' }));
+    svg.appendChild(Object.assign(el('text', { x: 10, y: curY + CAT_H / 2 + 4, class: 'tl-cat-label' }), { textContent: cat.label }));
+    curY += CAT_H;
+
+    catFabs.forEach(fab => {
+      const rowY = curY;
+      const cy   = rowY + ROW_H / 2;
+      const mx   = yearToX(fab.milestoneYear);
+
+      // Clickable hover rect (full row)
+      const hover = el('rect', { x: LEFT_W, y: rowY, width: svgW - LEFT_W, height: ROW_H, class: 'tl-row-hover' });
+      hover.addEventListener('click', () => showDetail(fab));
+      svg.appendChild(hover);
+
+      // Operational bar from milestone → today
+      if (fab.status === 'producing') {
+        const bx = yearToX(fab.milestoneYear);
+        const ex = yearToX(Math.min(TODAY, YEAR_END));
+        svg.appendChild(el('rect', { x: bx, y: cy - 3, width: Math.max(0, ex - bx), height: 6, rx: 3, class: 'tl-bar-producing' }));
+      }
+
+      // Dot
+      const dot = el('circle', { cx: mx, cy, r: DOT_R, class: `tl-dot tl-dot-${fab.status}` });
+      dot.addEventListener('click', () => showDetail(fab));
+      svg.appendChild(dot);
+
+      // Fab name label
+      const shortName = fab.name.length > 26 ? fab.name.slice(0, 25) + '…' : fab.name;
+      const label = Object.assign(el('text', { x: LEFT_W - 10, y: cy + 4, 'text-anchor': 'end', class: 'tl-fab-label' }), { textContent: shortName });
+      label.addEventListener('click', () => showDetail(fab));
+      svg.appendChild(label);
+
+      // Year tag
+      svg.appendChild(Object.assign(el('text', { x: mx + DOT_R + 4, y: cy + 4, class: 'tl-year-tag' }), { textContent: fab.milestoneYear }));
+
+      curY += ROW_H;
+    });
+  });
+}
+
+function toggleView() {
+  currentView = currentView === 'map' ? 'timeline' : 'map';
+  const isTimeline = currentView === 'timeline';
+  const mapWrap = document.getElementById('mapWrap');
+  const tlView  = document.getElementById('timelineView');
+  const btn     = document.getElementById('viewToggleBtn');
+
+  mapWrap.style.display = isTimeline ? 'none' : '';
+  tlView.classList.toggle('active', isTimeline);
+  btn.classList.toggle('active', isTimeline);
+  btn.textContent = isTimeline ? 'MAP' : 'TIMELINE';
+
+  if (isTimeline) {
+    const activeTab = document.querySelector('.filter-tab.active');
+    const cat = activeTab ? activeTab.dataset.category : 'all';
+    const visible = cat === 'all' ? allFabs : allFabs.filter(f => f.category === cat);
+    renderTimeline(visible);
+  }
+}
+
+// ── Filter tabs ───────────────────────────────────────────
+function filterMarkers(category) {
+  const visible = category === 'all'
+    ? allFabs
+    : allFabs.filter(f => f.category === category);
+
+  // Update map markers
+  clusterGroup.clearLayers();
+  visible.forEach(fab => clusterGroup.addLayer(markersByFab[fab.id]));
+
+  // Update investment stat dynamically
+  document.getElementById('statInvestment').textContent = computeInvestment(visible);
+
+  // Re-render timeline if it's the active view
+  if (currentView === 'timeline') renderTimeline(visible);
+}
+
+function initFilterTabs() {
+  document.querySelectorAll('.filter-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      filterMarkers(tab.dataset.category);
+    });
+  });
+
+  document.getElementById('viewToggleBtn').addEventListener('click', toggleView);
+}
+
 // ── Load data ─────────────────────────────────────────────
 async function loadFabs() {
-  const t = Date.now(); // cache-bust both files every page load
+  const t = Date.now();
 
-  const [fabsRes, newsRes] = await Promise.all([
+  const [fabsRes, newsRes, ismRes] = await Promise.all([
     fetch(`data/fabs.json?t=${t}`),
     fetch(`data/news.json?t=${t}`),
+    fetch(`data/ism_notifications.json?t=${t}`).catch(() => null),
   ]);
 
   const t0   = performance.now();
   const data = await fabsRes.json();
   newsData   = await newsRes.json();
-  const fabs = data.fabs;
 
-  const ms = Math.round(performance.now() - t0);
+  if (ismRes) {
+    const ismData = await ismRes.json().catch(() => ({ notifications: [] }));
+    ismNotifications = ismData.notifications || [];
+  }
+
+  const fabs = data.fabs;
+  const ms   = Math.round(performance.now() - t0);
+
   document.getElementById('loadTime').textContent =
     `Live · ${fabs.length} facilities · ${ms}ms`;
 
@@ -298,31 +503,13 @@ async function loadFabs() {
   });
 
   updateStats(fabs);
+  filterMarkers('all'); // sets statInvestment for initial 'all' state
+  renderIsmFeed();
   initFilterTabs();
-}
-
-// ── Filter tabs ───────────────────────────────────────────
-function filterMarkers(category) {
-  clusterGroup.clearLayers();
-  const visible = category === 'all'
-    ? allFabs
-    : allFabs.filter(f => f.category === category);
-  visible.forEach(fab => clusterGroup.addLayer(markersByFab[fab.id]));
-}
-
-function initFilterTabs() {
-  document.querySelectorAll('.filter-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      filterMarkers(tab.dataset.category);
-    });
-  });
 }
 
 // ── Boot ──────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-  // Apply saved theme before map init so correct tiles load first
   applyTheme(getTheme());
   initMap();
   initMobileGestures();
