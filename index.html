@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>India SemiFab Tracker</title>
+  <meta name="description" content="Track India's semiconductor fabrication facilities — operational fabs, plants under construction, and planned sites." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="scanline"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="logo-group">
+        <div class="hex-icon">
+          <svg viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 1L38 11V34L20 44L2 34V11L20 1Z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M20 8L32 15V29L20 36L8 29V15L20 8Z" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+            <circle cx="20" cy="22" r="3" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="title-block">
+          <h1>INDIA <span class="accent">SEMI</span>FAB <span class="accent">TRACKER</span></h1>
+          <p class="subtitle">Semiconductor Fabrication Intelligence &mdash; Live Tracker</p>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="refresh-indicator" id="refreshIndicator">
+          <span class="pulse-dot"></span>
+          <span id="loadTime">Loading tracker&hellip;</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode" onclick="toggleTheme()">
+          <span class="theme-icon" id="themeIcon">☀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="map-wrap">
+      <div id="map"></div>
+
+      <!-- Legend -->
+      <div class="legend glass">
+        <div class="legend-title">FACILITY STATUS</div>
+        <div class="legend-row">
+          <span class="dot producing"></span>
+          <span>Producing</span>
+          <span class="count" id="countProducing">—</span>
+        </div>
+        <div class="legend-row">
+          <span class="dot construction"></span>
+          <span>Under Construction</span>
+          <span class="count" id="countConstruction">—</span>
+        </div>
+        <div class="legend-row">
+          <span class="dot planned"></span>
+          <span>Planned</span>
+          <span class="count" id="countPlanned">—</span>
+        </div>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="stats-bar glass" id="statsBar">
+        <div class="stat-item">
+          <div class="stat-num" id="statTotal">—</div>
+          <div class="stat-lbl">Tracked Facilities</div>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <div class="stat-num accent" id="statInvestment">—</div>
+          <div class="stat-lbl">Announced Investment</div>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat-item">
+          <div class="stat-num" id="statStates">—</div>
+          <div class="stat-lbl">States Covered</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail panel -->
+    <aside class="detail-panel glass" id="detailPanel">
+      <div class="detail-placeholder" id="detailPlaceholder">
+        <div class="placeholder-icon">
+          <svg viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="28" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+            <path d="M30 10 L30 30 L45 30" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="30" cy="30" r="3" fill="currentColor" opacity="0.5"/>
+          </svg>
+        </div>
+        <p>Hover or tap a marker<br/>to explore a facility</p>
+        <p class="placeholder-sub">Tracking <strong id="totalCount">—</strong> semiconductor facilities across India</p>
+      </div>
+
+      <div class="detail-content" id="detailContent" style="display:none">
+        <div class="detail-header">
+          <span class="status-badge" id="dStatus"></span>
+          <button class="close-btn" onclick="closePanel()">✕</button>
+        </div>
+        <h2 id="dName"></h2>
+        <p class="d-location" id="dLocation"></p>
+
+        <div class="d-grid">
+          <div class="d-cell">
+            <div class="d-label">OPERATOR</div>
+            <div class="d-value" id="dOperator"></div>
+          </div>
+          <div class="d-cell">
+            <div class="d-label">TECH NODE</div>
+            <div class="d-value mono" id="dTechNode"></div>
+          </div>
+          <div class="d-cell">
+            <div class="d-label">CHIP TYPES</div>
+            <div class="d-value" id="dChipTypes"></div>
+          </div>
+          <div class="d-cell">
+            <div class="d-label">END MARKETS</div>
+            <div class="d-value" id="dEndMarkets"></div>
+          </div>
+          <div class="d-cell full">
+            <div class="d-label">INVESTMENT</div>
+            <div class="d-value accent-val" id="dInvestment"></div>
+          </div>
+        </div>
+
+        <div class="d-brief" id="dBrief"></div>
+
+        <div class="news-section" id="newsSection" style="display:none">
+          <div class="news-header">
+            <span class="news-title">LATEST NEWS</span>
+            <span class="news-fetched" id="newsFetched"></span>
+          </div>
+          <div id="newsList"></div>
+        </div>
+
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <span>India SemiFab Tracker &mdash; for research &amp; awareness</span>
+    <span class="footer-note">
+      <span class="ai-pill small">AI</span>
+      Data collected &amp; curated using AI &middot; Last updated: <span id="lastUpdated">—</span>
+    </span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
