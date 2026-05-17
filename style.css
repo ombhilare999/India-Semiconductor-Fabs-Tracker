@@ -662,6 +662,86 @@ footer a:hover { text-decoration: underline; }
   flex-shrink: 0;
 }
 
+/* ── Sheet handle (mobile) ────────────────────────────────── */
+.sheet-handle {
+  display: none;
+  width: 36px; height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  margin: 10px auto 2px;
+  flex-shrink: 0;
+}
+
+/* ── Mobile responsive ────────────────────────────────────── */
+@media (max-width: 768px) {
+  :root {
+    --footer-h: 38px;
+  }
+
+  /* Header — keep logo + toggle, hide everything else */
+  .header-inner { padding: 0 14px; gap: 8px; }
+  .title-block h1 { font-size: 0.78rem; letter-spacing: 0.07em; }
+  .subtitle { display: none; }
+  .refresh-indicator { display: none; }
+  .hex-icon { width: 26px; }
+
+  /* Map fills all available space */
+  .map-wrap { width: 100%; }
+
+  /* Stats bar — hidden on mobile, too cramped */
+  .stats-bar { display: none; }
+
+  /* Legend — smaller and tighter */
+  .legend {
+    bottom: 10px; left: 10px;
+    padding: 10px 13px;
+    min-width: 0;
+  }
+  .legend-title { font-size: 0.54rem; margin-bottom: 8px; }
+  .legend-row { font-size: 0.72rem; gap: 7px; margin-bottom: 6px; }
+  .dot { width: 9px; height: 9px; }
+  .count { font-size: 0.62rem; }
+
+  /* Detail panel becomes a bottom sheet */
+  .detail-panel {
+    position: fixed;
+    bottom: var(--footer-h);
+    left: 0; right: 0;
+    width: 100%;
+    max-height: 72vh;
+    border-radius: 16px 16px 0 0;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    transform: translateY(110%);
+    transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+    z-index: 900;
+    overflow-y: auto;
+  }
+
+  .detail-panel.mobile-open { transform: translateY(0); }
+
+  .sheet-handle { display: block; }
+
+  /* Hide placeholder on mobile — panel is invisible until tapped */
+  .detail-placeholder { display: none; }
+
+  .detail-content { padding: 14px 16px 20px; }
+  .detail-content h2 { font-size: 0.82rem; }
+
+  .d-grid { gap: 8px; }
+  .d-cell { padding: 8px 10px; }
+  .d-value { font-size: 0.73rem; }
+
+  .d-brief { font-size: 0.75rem; line-height: 1.65; }
+
+  .news-item-title { font-size: 0.73rem; }
+
+  /* Footer — single line */
+  footer { padding: 0 14px; font-size: 0.62rem; }
+  footer span:first-child { display: none; }
+  .footer-note { width: 100%; justify-content: center; }
+}
+
 /* ── Scrollbar ────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }

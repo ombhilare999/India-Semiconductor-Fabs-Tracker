@@ -20,7 +20,7 @@ let clusterGroup;
 
 // ── Theme ──────────────────────────────────────────────────
 function getTheme() {
-  return localStorage.getItem('semifab-theme') || 'dark';
+  return localStorage.getItem('semifab-theme') || 'light';
 }
 
 function applyTheme(theme) {
@@ -160,11 +160,16 @@ function showDetail(fab) {
   document.getElementById('dBrief').textContent       = fab.brief;
 
   renderNews(fab.id);
+
+  if (window.innerWidth <= 768) {
+    document.getElementById('detailPanel').classList.add('mobile-open');
+  }
 }
 
 function closePanel() {
   document.getElementById('detailContent').style.display = 'none';
   document.getElementById('detailPlaceholder').style.display = 'flex';
+  document.getElementById('detailPanel').classList.remove('mobile-open');
 }
 
 // ── Stats ─────────────────────────────────────────────────
