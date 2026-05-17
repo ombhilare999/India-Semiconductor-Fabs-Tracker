@@ -895,8 +895,20 @@ footer a:hover { text-decoration: underline; }
   /* Map fills all available space */
   .map-wrap { width: 100%; }
 
-  /* Stats bar — hidden on mobile, too cramped */
-  .stats-bar { display: none; }
+  /* Stats bar — compact, scrollable on mobile */
+  .stats-bar {
+    display: flex;
+    top: 10px;
+    padding: 6px 14px;
+    gap: 12px;
+    max-width: calc(100% - 24px);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .stats-bar::-webkit-scrollbar { display: none; }
+  .stat-num  { font-size: 0.85rem; }
+  .stat-lbl  { font-size: 0.5rem; }
+  .stat-sep  { height: 24px; }
 
   /* Legend — smaller and tighter */
   .legend {
