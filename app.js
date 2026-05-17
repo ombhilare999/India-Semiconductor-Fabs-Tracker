@@ -167,9 +167,43 @@ function showDetail(fab) {
 }
 
 function closePanel() {
+  const panel = document.getElementById('detailPanel');
+  panel.style.transform = '';          // clear any inline swipe offset
+  panel.classList.remove('mobile-open');
   document.getElementById('detailContent').style.display = 'none';
   document.getElementById('detailPlaceholder').style.display = 'flex';
-  document.getElementById('detailPanel').classList.remove('mobile-open');
+}
+
+function initMobileGestures() {
+  const panel = document.getElementById('detailPanel');
+  let startY = 0;
+  let lastY  = 0;
+
+  panel.addEventListener('touchstart', e => {
+    startY = e.touches[0].clientY;
+    lastY  = startY;
+    panel.style.transition = 'none';
+  }, { passive: true });
+
+  panel.addEventListener('touchmove', e => {
+    lastY = e.touches[0].clientY;
+    const delta = Math.max(0, lastY - startY); // only follow downward
+    panel.style.transform = `translateY(${delta}px)`;
+  }, { passive: true });
+
+  panel.addEventListener('touchend', () => {
+    panel.style.transition = '';
+    if (lastY - startY > 80) {
+      closePanel();
+    } else {
+      panel.style.transform = ''; // snap back
+    }
+  });
+
+  // Tap on the map background closes the sheet
+  map.on('click', () => {
+    if (panel.classList.contains('mobile-open')) closePanel();
+  });
 }
 
 // ── Stats ─────────────────────────────────────────────────
@@ -263,6 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Apply saved theme before map init so correct tiles load first
   applyTheme(getTheme());
   initMap();
+  initMobileGestures();
 
   loadFabs().catch(err => {
     console.error('Tracker: failed to load fabs data:', err);
