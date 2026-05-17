@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-17",
+  "lastUpdated": "2026-05-17",
   "fabs": [
   {
     "id": 1,
@@ -43,14 +43,14 @@
     "state": "Gujarat",
     "lat": 22.9930,
     "lng": 72.3650,
-    "status": "construction",
+    "status": "producing",
     "techNode": "Assembly, Test & Packaging — DRAM & NAND Flash",
     "chipTypes": ["DRAM", "NAND Flash", "Memory Modules"],
     "endMarkets": ["Mobile Devices", "Data Centers", "Consumer Electronics", "Automotive"],
     "investment": "$2.75 billion",
-    "announced": "2023",
+    "inaugurated": "February 2026",
     "newsQuery": "Micron Technology semiconductor India Sanand Gujarat",
-    "brief": "Micron's first semiconductor facility in India, focused on assembling, testing, and packaging DRAM and NAND flash memory chips — the kind found in smartphones, laptops, and servers. Micron is the world's third-largest memory chip maker. This facility won't fabricate silicon wafers but will handle the equally critical final stages of chip production."
+    "brief": "Micron's first semiconductor facility in India, inaugurated in February 2026 — making it one of the first foreign-owned semiconductor plants to go live under India's semiconductor mission. Assembles, tests, and packages DRAM and NAND flash memory chips for smartphones, laptops, servers, and automotive systems. Micron is the world's third-largest memory chip maker."
   },
   {
     "id": 4,
@@ -62,29 +62,29 @@
     "lng": 72.1853,
     "status": "construction",
     "techNode": "28nm – 110nm",
-    "chipTypes": ["Logic ICs", "Power Management ICs", "Display Driver ICs", "Microcontrollers"],
+    "chipTypes": ["Logic ICs", "Power Management ICs", "Display Driver ICs", "Microcontrollers", "AI Accelerators"],
     "endMarkets": ["Automotive", "Consumer Electronics", "Industrial", "Telecom Infrastructure"],
-    "investment": "$11 billion",
+    "investment": "₹91,000 crore (~$11 billion)",
     "announced": "2024",
     "newsQuery": "Tata Electronics PSMC semiconductor fab Dholera India",
-    "brief": "India's most ambitious true semiconductor fab — a wafer fabrication plant where silicon wafers are processed into chips. Tata has partnered with Taiwan's PSMC, which brings decades of foundry expertise. At 28nm, it targets the 'mature node' market: chips that are not cutting-edge but are in massive demand for automotive controllers, power management, and displays. Expected to be India's first large-scale commercial fab."
+    "brief": "India's most ambitious true semiconductor fab — a 300mm AI-enabled wafer fabrication plant targeting 50,000 wafer starts per month at 28nm–110nm nodes. A special economic zone was notified in April 2026. Jointly developed with Taiwan's PSMC. First silicon is targeted for late 2026, with the fab primarily serving automotive, industrial, and consumer electronics markets."
   },
   {
     "id": 5,
-    "name": "CG Power / Renesas Fab",
+    "name": "CG Power / Renesas OSAT",
     "operator": "CG Power (India) + Renesas Electronics (Japan) + Stars Microelectronics (Thailand)",
     "city": "Sanand",
     "state": "Gujarat",
     "lat": 22.9830,
     "lng": 72.3780,
-    "status": "construction",
+    "status": "producing",
     "techNode": "40nm – 90nm",
     "chipTypes": ["Analog ICs", "Power Management ICs", "Microcontrollers", "RF Chips"],
     "endMarkets": ["Automotive", "Industrial Automation", "IoT Devices", "Consumer Electronics"],
     "investment": "$750 million",
-    "announced": "2024",
+    "inaugurated": "August 2025",
     "newsQuery": "CG Power Renesas semiconductor fab India",
-    "brief": "A tri-nation joint venture bringing together India's CG Power, Japan's Renesas (a leading automotive chip supplier), and Thailand's Stars Microelectronics. Will produce analog and power management chips — the workhorses of modern electronics that regulate voltage, manage batteries, and interface with the physical world. Analog chips at 40–90nm are less glamorous than cutting-edge logic, but they are irreplaceable in cars and industrial equipment."
+    "brief": "India's first full-service OSAT provider, inaugurated in August 2025. A tri-nation joint venture between India's CG Power, Japan's Renesas, and Thailand's Stars Microelectronics. The G1 facility handles around 0.5 million chip units per day and is scaling toward commercial production capacity. Produces analog and power management chips essential for automotive and industrial systems."
   },
   {
     "id": 6,
@@ -94,14 +94,14 @@
     "state": "Gujarat",
     "lat": 22.9760,
     "lng": 72.3530,
-    "status": "construction",
+    "status": "producing",
     "techNode": "Assembly & Test (Advanced Packaging)",
     "chipTypes": ["Packaged ICs", "MEMS Sensors", "Power Modules"],
     "endMarkets": ["Automotive", "Medical Devices", "Aerospace & Defense", "Industrial"],
-    "investment": "~₹3,300 crore (~$400 million)",
-    "announced": "2024",
+    "investment": "₹3,300 crore (~$400 million)",
+    "inaugurated": "March 2026",
     "newsQuery": "Kaynes Semicon semiconductor India Gujarat",
-    "brief": "An outsourced semiconductor assembly and test (OSAT) facility by Kaynes Technology, a leading Indian electronics manufacturer. Will specialize in high-reliability chip packaging for sectors where failure is not an option — automotive, medical, and aerospace. Advanced packaging technologies like system-in-package (SiP) can combine multiple chips into one compact, high-performance module."
+    "brief": "Inaugurated in March 2026 with a production capacity of around 6 million chips per day. Kaynes Technology specializes in high-reliability chip packaging for sectors where failure is not an option — automotive, medical, and aerospace. Advanced packaging technologies like system-in-package (SiP) can combine multiple chips into a single compact, high-performance module."
   },
   {
     "id": 7,
@@ -118,24 +118,75 @@
     "investment": "$3 billion (proposed)",
     "announced": "2022",
     "newsQuery": "ISMC semiconductor fab India Karnataka Mysuru",
-    "brief": "A proposed analog semiconductor fab that was originally backed by UAE-based Next Orbit Ventures in consortium with Tower Semiconductor (Israel). The project stalled after the primary investor withdrew and Intel's acquisition of Tower fell through. The Indian government is actively working to revive this project, as a 65nm analog fab would complement the logic fabs being built in Gujarat."
+    "brief": "A proposed analog semiconductor fab originally backed by UAE-based Next Orbit Ventures in consortium with Tower Semiconductor (Israel). The project stalled after the primary investor withdrew and Intel's acquisition of Tower fell through. The Indian government is actively working to revive this project, as a 65nm analog fab would complement the logic fabs being built in Gujarat."
   },
   {
     "id": 8,
     "name": "HCL – Foxconn OSAT",
     "operator": "HCL Technologies (India) + Foxconn (Taiwan)",
-    "city": "Jewar (Yamuna Expressway)",
+    "city": "Jewar",
     "state": "Uttar Pradesh",
     "lat": 28.2000,
     "lng": 77.5800,
     "status": "planned",
-    "techNode": "Assembly & Test (OSAT)",
-    "chipTypes": ["Packaged Logic ICs", "System-on-Chip Packages", "Consumer Chip Modules"],
-    "endMarkets": ["Consumer Electronics", "Mobile", "Computing"],
-    "investment": "$37.2 billion (full consortium)",
-    "announced": "2023",
+    "techNode": "Wafer-Level Packaging (WLP)",
+    "chipTypes": ["Display Driver ICs (DDICs)", "System-on-Chip Packages"],
+    "endMarkets": ["Consumer Electronics", "Mobile Displays", "Computing"],
+    "investment": "₹3,700 crore (~$440 million)",
+    "announced": "2025",
     "newsQuery": "HCL Foxconn semiconductor OSAT India Jewar",
-    "brief": "A joint venture between HCL and Foxconn (the world's largest electronics manufacturer) for semiconductor assembly and testing near the upcoming Noida International Airport. Foxconn brings deep experience in chip packaging from its operations in Asia. The proximity to a major air cargo hub is deliberate — chips are high-value, time-sensitive goods that move by air. An earlier, larger Foxconn-Vedanta deal collapsed in 2023 before this new arrangement was announced."
+    "brief": "A joint venture between HCL and Foxconn for semiconductor assembly and testing near the upcoming Noida International Airport, approved by the Union Cabinet in May 2025. Notably focused on wafer-level packaging (WLP) of display driver ICs — an advanced packaging technique not previously adopted by any India OSAT project. Foxconn owns a 40% stake. Proximity to a major air cargo hub is deliberate, as chips move by air."
+  },
+  {
+    "id": 9,
+    "name": "CDIL Semiconductors Expansion",
+    "operator": "Continental Device India Ltd. (CDIL)",
+    "city": "Mohali",
+    "state": "Punjab",
+    "lat": 30.7200,
+    "lng": 76.7400,
+    "status": "construction",
+    "techNode": "Discrete Power Semiconductors",
+    "chipTypes": ["MOSFETs", "IGBTs", "Schottky Diodes", "SiC Power Devices"],
+    "endMarkets": ["Solar Energy", "Electric Vehicles", "Industrial Power", "Consumer Electronics"],
+    "investment": "₹117 crore (~$14 million)",
+    "announced": "2025",
+    "newsQuery": "CDIL Continental Device India semiconductor Mohali expansion",
+    "brief": "CDIL is one of India's oldest private semiconductor manufacturers (founded 1964), now expanding its Mohali plant under the India Semiconductor Mission. The expansion targets high-power discrete devices — MOSFETs, IGBTs, and SiC components used in solar inverters, EV powertrains, and industrial motor drives. Annual capacity will grow from 600 million to over 760 million units, with 158 million being high-power discrete chips."
+  },
+  {
+    "id": 10,
+    "name": "RIR Power Electronics SiC Fab",
+    "operator": "RIR Power Electronics Ltd.",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "lat": 20.2961,
+    "lng": 85.8245,
+    "status": "construction",
+    "techNode": "Silicon Carbide (SiC) — 3.3kV to 20kV",
+    "chipTypes": ["SiC MOSFETs", "SiC IGBTs", "SiC Diodes"],
+    "endMarkets": ["Electric Vehicles", "Renewable Energy", "Power Grids", "Industrial Automation"],
+    "investment": "₹618 crore (~$74 million)",
+    "announced": "2025",
+    "newsQuery": "RIR Power Electronics silicon carbide semiconductor Odisha Bhubaneswar",
+    "brief": "India's first Silicon Carbide (SiC) semiconductor fabrication plant, backed by the Odisha state government. SiC chips are critical for next-generation power electronics — they handle far higher voltages and temperatures than conventional silicon, making them essential for EV inverters, solar converters, and industrial power grids. SiC wafer epitaxy production is targeted from 2026, with phased commercial rollout thereafter."
+  },
+  {
+    "id": 11,
+    "name": "Crystal Matrix GaN / MicroLED Fab",
+    "operator": "Crystal Matrix Limited",
+    "city": "Dholera",
+    "state": "Gujarat",
+    "lat": 22.2561,
+    "lng": 72.2053,
+    "status": "planned",
+    "techNode": "GaN — 6-inch wafers",
+    "chipTypes": ["GaN Epiwafers", "Mini-LED Modules", "Micro-LED Display Panels"],
+    "endMarkets": ["Smartphones", "Automotive Displays", "Commercial Displays", "Extended Reality (XR)"],
+    "investment": "₹3,068 crore (~$336 million)",
+    "announced": "May 2026",
+    "newsQuery": "Crystal Matrix GaN microLED semiconductor Dholera India",
+    "brief": "India's first Gallium Nitride (GaN) based mini/micro-LED display fabrication facility, approved by the Union Cabinet in May 2026. GaN enables displays that are far brighter, more energy-efficient, and longer-lasting than OLED or LCD — the technology behind next-generation TVs, AR/VR headsets, and automotive dashboards. The facility will produce 6-inch GaN wafers and full display modules, targeting 72,000 sq. metres of display panels annually."
   }
   ]
 }
