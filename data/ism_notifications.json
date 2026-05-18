@@ -1,4 +1,815 @@
 {
-  "lastChecked": "2026-05-17T10:48:17.511990+00:00",
-  "notifications": []
+  "lastChecked": "2026-05-18T05:45:56.678445+00:00",
+  "notifications": [
+    {
+      "id": "333deaae7c87",
+      "type": "notification",
+      "title": "National Policy on Electronics 2019 (NPE 2019)",
+      "date": "25 Feb 2019",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/27/1695789006_1685533270_Notification_NPE_2019_25022019.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678442+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c65fef9d7569",
+      "type": "notification",
+      "title": "Basic Custom Duty (BCD) Exemption for Semiconductor Manufacturing in India",
+      "date": "12 Sep 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1735818407.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678438+00:00",
+      "isNew": false
+    },
+    {
+      "id": "e4427c5ec4b8",
+      "type": "notification",
+      "title": "Semicon India Conference of Electronics Manufacturing Supply Chain Ecosystem",
+      "date": "18 Feb 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/27/1695788428_1676647907_semiconductor_agenda.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678435+00:00",
+      "isNew": false
+    },
+    {
+      "id": "306b51313fd3",
+      "type": "notification",
+      "title": "Indian Electronics Overview",
+      "date": "18 Feb 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/27/1695788741_1676530089_1675877503_India_Semicon_Europa.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678431+00:00",
+      "isNew": false
+    },
+    {
+      "id": "433a9b2d2a6d",
+      "type": "notification",
+      "title": "03 Application under Design Linked Incentive Scheme has been approved.",
+      "date": "24 Feb 2023",
+      "pdfUrl": null,
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678425+00:00",
+      "isNew": false
+    },
+    {
+      "id": "059c9182a21e",
+      "type": "notification",
+      "title": "02 Application under Design Linked Incentive Scheme has been approved.",
+      "date": "12 May 2023",
+      "pdfUrl": null,
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678422+00:00",
+      "isNew": false
+    },
+    {
+      "id": "b069ba037345",
+      "type": "notification",
+      "title": "Guidelines for Modified Scheme for setting up of Semiconductor Fabs in India",
+      "date": "29 May 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/26/1695749443_1685532319_Guidelines_for_Modified_Scheme_for_setting_up_of_Semiconductor_Fabs_in_India.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678418+00:00",
+      "isNew": false
+    },
+    {
+      "id": "250f57241eaa",
+      "type": "notification",
+      "title": "Guidelines for Modified Scheme for setting up of Display Fabs in India",
+      "date": "29 May 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/27/1695787828_1685532435_Guidelines_for_Modified_Scheme_for_setting_up_of_Display_Fabs_in_India.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678415+00:00",
+      "isNew": false
+    },
+    {
+      "id": "f4cfe10740db",
+      "type": "notification",
+      "title": "Government invites applications for setting up Semiconductor and Display Fabs as per the Modified Semicon India Programme from 1st June 2023",
+      "date": "29 May 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/2023/Sep/27/1695787982_1685531924_PIB1928479.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678411+00:00",
+      "isNew": false
+    },
+    {
+      "id": "974380e0add9",
+      "type": "notification",
+      "title": "Applications are invited through the portal of India Semiconductor Mission (ISM) for setting up Semiconductor and Display Fabs as per the Modified Semicon India Programme from 1st June 2023.",
+      "date": "31 May 2023",
+      "pdfUrl": null,
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678407+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c83f074d1d0f",
+      "type": "notification",
+      "title": "Notification for amendment in the Schemes notified under the Modified Programme for Semiconductors and Display Manufacturing Ecosystem in India",
+      "date": "09 Jun 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1735819084.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678402+00:00",
+      "isNew": false
+    },
+    {
+      "id": "5c92dbdd0583",
+      "type": "notification",
+      "title": "Revised Guidelines for effective functioning of the Modified scheme for setting up of Compound Semiconductors / Silicon Photonics / Sensors Fab/ Discrete Semiconductors Fab and Semiconductor Assembly, Testing, Marking and Packaging (ATMP)",
+      "date": "03 Jul 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1702269642.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678397+00:00",
+      "isNew": false
+    },
+    {
+      "id": "382f251d032e",
+      "type": "notification",
+      "title": "Establishing Resilient Supply Chains for Electronics & Semiconductor Manufacturing",
+      "date": "18 Jun 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1718688286.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678232+00:00",
+      "isNew": false
+    },
+    {
+      "id": "fe4d071875a7",
+      "type": "notification",
+      "title": "India Semiconductor Mission (ISM) proudly welcomes Shri Amitesh Kumar Sinha as its new Chief Executive Officer.",
+      "date": "28 Apr 2025",
+      "pdfUrl": null,
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678228+00:00",
+      "isNew": false
+    },
+    {
+      "id": "667d769b68ec",
+      "type": "notification",
+      "title": "ISM is seeking dynamic professionals for multiple roles to drive the Program for Development of Semiconductor & Manufacturing Ecosystem/Schemes.",
+      "date": "05 May 2025",
+      "pdfUrl": null,
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678224+00:00",
+      "isNew": false
+    },
+    {
+      "id": "84bbcb1962c7",
+      "type": "notification",
+      "title": "Gazette notification for Amendments to SEZ rules for Semiconductors.",
+      "date": "03 Jun 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1749536778.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678220+00:00",
+      "isNew": false
+    },
+    {
+      "id": "bbb43444ff97",
+      "type": "notification",
+      "title": "Amendment to the Guidelines of Semiconductor manufacturing related schemes notified under the Modified Programme for Semiconductors and Display Manufacturing Ecosystem in India",
+      "date": "08 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1757424472.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678214+00:00",
+      "isNew": false
+    },
+    {
+      "id": "8913bbc61c74",
+      "type": "notification",
+      "title": "Revision in the definition of “Deep Tech Startup” vide Gazette notification G.S.R. 108(E) dt 04.02.2026, in supersession of the Gazette Notification No. G.S.R. 127(E) dated February 19, 2019.",
+      "date": "04 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/post/18/1770355736.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:56.678194+00:00",
+      "isNew": false
+    },
+    {
+      "id": "a2c7b730b2eb",
+      "type": "press-release",
+      "title": "Cabinet approves Programme for Development of Semiconductors and Display Manufacturing Ecosystem in India",
+      "date": "15 Dec 2021",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739429908.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466176+00:00",
+      "isNew": false
+    },
+    {
+      "id": "1a2483f0822f",
+      "type": "press-release",
+      "title": "Semicon India takes a step forward with Acceptance of Applications for Semiconductor and Display Fabs",
+      "date": "19 Feb 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739429982.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466172+00:00",
+      "isNew": false
+    },
+    {
+      "id": "b6fc1a95d06b",
+      "type": "press-release",
+      "title": "Semiconductor Manufacturing Attracts interest from Global Companies as Good Number of Applications received under The Programme: Ashwini Vaishnaw",
+      "date": "05 Apr 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739430774.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466166+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c61f536f414e",
+      "type": "press-release",
+      "title": "Semiconductor Chip Designing and Manufacturing",
+      "date": "06 Apr 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739852022.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466163+00:00",
+      "isNew": false
+    },
+    {
+      "id": "2aeed1c85fce",
+      "type": "press-release",
+      "title": "MoS Shri Rajeev Chandrasekhar to visit Gandhinagar tomorrow to flag off the first SemiconIndia FutureDesign Roadshow",
+      "date": "16 Oct 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739430794.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466160+00:00",
+      "isNew": false
+    },
+    {
+      "id": "7acc68c6f726",
+      "type": "press-release",
+      "title": "India Semiconductor Mission",
+      "date": "21 Dec 2022",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739430811.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466156+00:00",
+      "isNew": false
+    },
+    {
+      "id": "869703ab5668",
+      "type": "press-release",
+      "title": "India Semiconductor Mission",
+      "date": "03 Feb 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768075.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466153+00:00",
+      "isNew": false
+    },
+    {
+      "id": "a742377fc3e9",
+      "type": "press-release",
+      "title": "MoU on semiconductor Supply Chain and Innovation Partnership between India and US signed following the Commercial Dialogue 2023",
+      "date": "10 Mar 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768102.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466149+00:00",
+      "isNew": false
+    },
+    {
+      "id": "65f4402e6e04",
+      "type": "press-release",
+      "title": "India Semiconductor Mission",
+      "date": "23 Mar 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739851892.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466146+00:00",
+      "isNew": false
+    },
+    {
+      "id": "f1291a4b9180",
+      "type": "press-release",
+      "title": "Government invites applications for setting up Semiconductor and Display Fabs as per Modified Semicon India Programme from 1st June",
+      "date": "31 May 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768265.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466142+00:00",
+      "isNew": false
+    },
+    {
+      "id": "56ca05de10d5",
+      "type": "press-release",
+      "title": "MoS Rajeev Chandrasekhar: Semiconductors & electronics sector will have a huge role to play in India Techade",
+      "date": "25 Jul 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768288.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466137+00:00",
+      "isNew": false
+    },
+    {
+      "id": "ad3aebe91b28",
+      "type": "press-release",
+      "title": "PM inaugurates SemiconIndia 2023 in Gandhinagar, Gujarat",
+      "date": "28 Jul 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768300.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466134+00:00",
+      "isNew": false
+    },
+    {
+      "id": "69069c1cd6ad",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi inaugurated SemiconIndia 2023 at Gandhinagar, Gujarat",
+      "date": "29 Jul 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768356.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466130+00:00",
+      "isNew": false
+    },
+    {
+      "id": "6acbd78fe499",
+      "type": "press-release",
+      "title": "SEMI intent to support the India Semiconductor Mission (ISM)",
+      "date": "29 Jul 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768472.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466127+00:00",
+      "isNew": false
+    },
+    {
+      "id": "9276b8f268c2",
+      "type": "press-release",
+      "title": "After success of Semicon India 2023, MoS Rajeev Chandrasekhar will be in Bengaluru tomorrow to flag off Semicon India, to be held in September 2024",
+      "date": "12 Sep 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768516.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466123+00:00",
+      "isNew": false
+    },
+    {
+      "id": "3c7b9c49a645",
+      "type": "press-release",
+      "title": "Cabinet approves MoC between India and Japan on Japan-India Semiconductor Supply Chain Partnership",
+      "date": "25 Oct 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768530.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466120+00:00",
+      "isNew": false
+    },
+    {
+      "id": "b05659d67fe1",
+      "type": "press-release",
+      "title": "Micron’s semiconductor project at Sanand in Gujarat on fast track",
+      "date": "06 Dec 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768559.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466115+00:00",
+      "isNew": false
+    },
+    {
+      "id": "027a77fb6dbf",
+      "type": "press-release",
+      "title": "Year End Review 2023 of Ministry of Electronics & Information Technology",
+      "date": "26 Dec 2023",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768576.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466111+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c2896d434788",
+      "type": "press-release",
+      "title": "Cabinet approves MoU between India and the European Commission on Working Arrangements on Semiconductors Ecosystems under the framework of EU-India TTC",
+      "date": "18 Jan 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768717.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466108+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c58e43b30278",
+      "type": "press-release",
+      "title": "Giant leap for India Semiconductor Mission: Cabinet approves three more semiconductor units",
+      "date": "29 Feb 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1754288481.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466105+00:00",
+      "isNew": false
+    },
+    {
+      "id": "f8687d965a62",
+      "type": "press-release",
+      "title": "PM participates in ‘India’s Techade: Chips for Viksit Bharat’ program",
+      "date": "13 Mar 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739851815.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466101+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c558ef5ff640",
+      "type": "press-release",
+      "title": "English rendering of PM’s address at ‘India’s Techade: Chips for Viksit Bharat' via video conferencing",
+      "date": "13 Mar 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739851658.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466098+00:00",
+      "isNew": false
+    },
+    {
+      "id": "e84070d6a2d8",
+      "type": "press-release",
+      "title": "GoI taking steps to encourage domestic manufacturing of semiconductors & promote country's digital transformation and self-reliance",
+      "date": "31 Jul 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768791.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466094+00:00",
+      "isNew": false
+    },
+    {
+      "id": "4a608395c5e0",
+      "type": "press-release",
+      "title": "Prime Minister outlines India's commitment towards becoming a global leader in semiconductor production",
+      "date": "15 Aug 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768808.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466091+00:00",
+      "isNew": false
+    },
+    {
+      "id": "44225eca42f4",
+      "type": "press-release",
+      "title": "Cabinet approves one more semiconductor unit under India Semiconductor Mission (ISM)",
+      "date": "02 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768820.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466088+00:00",
+      "isNew": false
+    },
+    {
+      "id": "275a5dbe03ec",
+      "type": "press-release",
+      "title": "SEMICON India a strategic event, providing a platform for all major semiconductor supply chain players: Sh. Akash Tripathi, CEO, Indian Semiconductor Mission",
+      "date": "09 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768834.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466084+00:00",
+      "isNew": false
+    },
+    {
+      "id": "176bc6f61c05",
+      "type": "press-release",
+      "title": "Top Semiconductor CEOs express their appreciation after meeting Prime Minister Shri Narendra Modi at the Semiconductor Executives’ Roundtable",
+      "date": "10 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739768946.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466081+00:00",
+      "isNew": false
+    },
+    {
+      "id": "887eede2f313",
+      "type": "press-release",
+      "title": "Top Semiconductor CEOs laud India and Prime Minister Shri Narendra Modi’s leadership at SEMICON India 2024 in Greater Noida, Uttar Pradesh",
+      "date": "11 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769118.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466078+00:00",
+      "isNew": false
+    },
+    {
+      "id": "edeaf307337a",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi inaugurates SEMICON India 2024 in Greater Noida, Uttar Pradesh",
+      "date": "11 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769081.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466074+00:00",
+      "isNew": false
+    },
+    {
+      "id": "135dec3275af",
+      "type": "press-release",
+      "title": "English rendering of PM’s address at SEMICON India 2024 event in Greater Noida, Uttar Pradesh",
+      "date": "11 Sep 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769131.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466070+00:00",
+      "isNew": false
+    },
+    {
+      "id": "9f0a7829d68f",
+      "type": "press-release",
+      "title": "Assam’s Semiconductor Plant: A Game-Changer for India’s Semiconductor Ecosystem",
+      "date": "17 Nov 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769143.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466060+00:00",
+      "isNew": false
+    },
+    {
+      "id": "6a53498ec0d1",
+      "type": "press-release",
+      "title": "Year End Review 2024 of Ministry of Electronics & Information Technology (Part-1)",
+      "date": "27 Dec 2024",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769165.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466056+00:00",
+      "isNew": false
+    },
+    {
+      "id": "e24bb41c5045",
+      "type": "press-release",
+      "title": "India Semiconductor Mission, CG Power and CG SEMI Sign Fiscal Support Agreement",
+      "date": "27 Jan 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1739769180.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466053+00:00",
+      "isNew": false
+    },
+    {
+      "id": "9bf48b9bee56",
+      "type": "press-release",
+      "title": "India Semiconductor Mission, Tata Electronics, and Tata Semiconductor Manufacturing Sign Fiscal Support Agreement for Semiconductor Fab",
+      "date": "12 Mar 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1741770590.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466050+00:00",
+      "isNew": false
+    },
+    {
+      "id": "bf57140f67f5",
+      "type": "press-release",
+      "title": "Union Minister Shri Ashwini Vaishnaw Unveils India’s First 3nm Chip Design Centres in Noida and Bengaluru",
+      "date": "13 May 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1747193051.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466046+00:00",
+      "isNew": false
+    },
+    {
+      "id": "653bc0062235",
+      "type": "press-release",
+      "title": "Cabinet approves 6th semiconductor unit under India Semiconductor Mission",
+      "date": "14 May 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1747216329.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466042+00:00",
+      "isNew": false
+    },
+    {
+      "id": "8a9eb54780dd",
+      "type": "press-release",
+      "title": "SEMICON India 2025 with First-Ever Global Pavilions, Country Roundtables, Skilling Initiatives, and Design Startup Pavilion to Witness Record Stakeholder Participation",
+      "date": "11 Jul 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1752236679.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466039+00:00",
+      "isNew": false
+    },
+    {
+      "id": "f6ea1231c231",
+      "type": "press-release",
+      "title": "Semiconductor startups in India attracting record investment, Driven by Government of India’s support",
+      "date": "24 Jul 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1753368775.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466036+00:00",
+      "isNew": false
+    },
+    {
+      "id": "b8bbf2cfa39f",
+      "type": "press-release",
+      "title": "India’s Semiconductor Revolution",
+      "date": "04 Aug 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1754279963.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466032+00:00",
+      "isNew": false
+    },
+    {
+      "id": "ed54265227de",
+      "type": "press-release",
+      "title": "Cabinet approved four semiconductor projects: SiCSem, CDIL, 3D Glass Solutions Inc., and ASIP",
+      "date": "12 Aug 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1754993393.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466028+00:00",
+      "isNew": false
+    },
+    {
+      "id": "53381cd8ceb5",
+      "type": "press-release",
+      "title": "Prime Minister Narendra Modi to inaugurate fourth edition of SEMICON India 2025",
+      "date": "22 Aug 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1755884664.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466025+00:00",
+      "isNew": false
+    },
+    {
+      "id": "f98ca51adacc",
+      "type": "press-release",
+      "title": "Government pushes semiconductor design innovation with the Design Linked Incentive (DLI) Scheme",
+      "date": "22 Aug 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759488402.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466021+00:00",
+      "isNew": false
+    },
+    {
+      "id": "6cc3538fe05a",
+      "type": "press-release",
+      "title": "Major Milestone in India’s Semiconductor Journey as one of India’s first end-to-end OSAT Pilot Line Facility Launched in Sanand, Gujarat",
+      "date": "28 Aug 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759487974.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466018+00:00",
+      "isNew": false
+    },
+    {
+      "id": "52050034ec99",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi presented with First set of Made-in-India Chips; Union Minister Ashwini Vaishnaw Calls It a Moment of Pride Thanking PM for his farsighted vision, strong will and decisive action",
+      "date": "02 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759488483.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.466013+00:00",
+      "isNew": false
+    },
+    {
+      "id": "7e75d05c4a4b",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi inaugurates Semicon India 2025 in New Delhi",
+      "date": "02 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759489327.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465847+00:00",
+      "isNew": false
+    },
+    {
+      "id": "29d0e8bed6c8",
+      "type": "press-release",
+      "title": "English rendering of PM’s speech during Semicon India 2025 at Yashobhoomi, Delhi",
+      "date": "02 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759489392.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465843+00:00",
+      "isNew": false
+    },
+    {
+      "id": "3529142dd48f",
+      "type": "press-release",
+      "title": "SEMICON India 2025 Concludes Successfully, Showcasing India’s Rising Role in the Global Semiconductor Ecosystem",
+      "date": "04 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1757005931.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465839+00:00",
+      "isNew": false
+    },
+    {
+      "id": "93b05c505cde",
+      "type": "press-release",
+      "title": "Semicon India 2025 Showcases Indian Startups Accelerating the Roadmap for Aatmanirbhar Chips under the Design Linked Incentive (DLI) Scheme",
+      "date": "04 Sep 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1759488570.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465835+00:00",
+      "isNew": false
+    },
+    {
+      "id": "14d174a36d52",
+      "type": "press-release",
+      "title": "Government of India to invest Rs. 4,500 crore for modernization of SCL Mohali; Assures that it will not be privatised.",
+      "date": "28 Nov 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1764505892.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465832+00:00",
+      "isNew": false
+    },
+    {
+      "id": "08a135abaf45",
+      "type": "press-release",
+      "title": "Government of India is democratizing chip design amongst Indian Universities with access to industry-grade Electronic Design Automation (EDA) tools and Multi-project Wafer (MPW) fabrication services",
+      "date": "29 Nov 2025",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1764505761.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465826+00:00",
+      "isNew": false
+    },
+    {
+      "id": "c48112fa7bca",
+      "type": "press-release",
+      "title": "Union Minister Shri Ashwini Vaishnaw interacts with Semiconductor Chip Design Companies approved under the DLI Scheme",
+      "date": "27 Jan 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1769831577.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465822+00:00",
+      "isNew": false
+    },
+    {
+      "id": "116c490a2882",
+      "type": "press-release",
+      "title": "HIGHLIGHTS OF UNION BUDGET 2026-27",
+      "date": "01 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1770028199.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465814+00:00",
+      "isNew": false
+    },
+    {
+      "id": "755ffa30ebf2",
+      "type": "press-release",
+      "title": "India Semiconductor Mission 2.0, A Major Push in Budget 2026 towards Semiconductor Self Reliance.",
+      "date": "07 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1770478760.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465810+00:00",
+      "isNew": false
+    },
+    {
+      "id": "47babf00737c",
+      "type": "press-release",
+      "title": "PM to participate in groundbreaking ceremony of HCL–Foxconn Joint Venture project on 21 February.",
+      "date": "20 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1771636004.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465806+00:00",
+      "isNew": false
+    },
+    {
+      "id": "0a3abceec834",
+      "type": "press-release",
+      "title": "PM to visit Gujarat on 28th February,PM to inaugurate Micron Technology’s Semiconductor Assembly, Test and Packaging (ATMP) facility in Sanand.",
+      "date": "27 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1772253041.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465801+00:00",
+      "isNew": false
+    },
+    {
+      "id": "4b8052925100",
+      "type": "press-release",
+      "title": "Prime Minister shares glimpses of his address during Inauguration of Micron Technology’s Semiconductor Assembly, Test and Packaging (ATMP) facility in Sanand, Gujarat.",
+      "date": "28 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1772343579.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465796+00:00",
+      "isNew": false
+    },
+    {
+      "id": "597758439f98",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi inaugurates Micron Technology’s Semiconductor Assembly, Test and Packaging (ATMP) facility in Sanand, Gujarat.",
+      "date": "28 Feb 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1772347171.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465787+00:00",
+      "isNew": false
+    },
+    {
+      "id": "1037546529c1",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi shares glimpses of his address at the inauguration of Kaynes Semicon Plant at Sanand, Gujarat",
+      "date": "31 Mar 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1774967477.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465783+00:00",
+      "isNew": false
+    },
+    {
+      "id": "34bf7cec83ea",
+      "type": "press-release",
+      "title": "Prime Minister Shri Narendra Modi inaugurates the Kaynes Semicon Plant at Sanand, Gujarat",
+      "date": "31 Mar 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1774967547.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465778+00:00",
+      "isNew": false
+    },
+    {
+      "id": "7e3de5728d15",
+      "type": "press-release",
+      "title": "Government's Semicon India Programme to develop a complete ecosystem ranging from design to manufacturing.",
+      "date": "01 Apr 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1775725050.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465774+00:00",
+      "isNew": false
+    },
+    {
+      "id": "2ea917dff3a5",
+      "type": "press-release",
+      "title": "Groundbreaking of India’s First Advanced 3D Semiconductor Packaging Unit in Odisha; Major Boost to AI, 5G and Defence Tech.",
+      "date": "19 Apr 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1776660071.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465769+00:00",
+      "isNew": false
+    },
+    {
+      "id": "80f61281915e",
+      "type": "press-release",
+      "title": "Cabinet approves two more semiconductor manufacturing units with cumulative investment of more than Rs. 3,900 crore",
+      "date": "05 May 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1777993612.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465762+00:00",
+      "isNew": false
+    },
+    {
+      "id": "2f536cd4e64f",
+      "type": "press-release",
+      "title": "Rajasthan gets its first Semiconductor Plant.",
+      "date": "15 May 2026",
+      "pdfUrl": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1778933576.pdf",
+      "summary": "",
+      "firstSeenAt": "2026-05-18T05:45:55.465736+00:00",
+      "isNew": false
+    }
+  ]
 }
