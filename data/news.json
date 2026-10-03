@@ -1,21 +1,497 @@
 {
-  "1": [],
-  "2": [],
-  "3": [],
-  "4": [],
-  "5": [],
-  "6": [],
-  "7": [],
-  "8": [],
-  "9": [],
-  "10": [],
-  "11": [],
-  "12": [],
-  "13": [],
-  "14": [],
-  "15": [],
+  "1": [
+    {
+      "title": "India’s Semiconductor Story Has Deep Roots: From SCL to a Global Chip Ecosystem - konsulteer.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb3VDRWU2SWw1SVlUTDAzX0h0TWFZdEJ5dUxOZjQzOUZEYnJGWVNqYUNpNWs0Nk91QVBsR3JaMXJBSHpnd20tMFFMMFpiZTlNOFNSNE05SXprOHl2Xzdzak56QWF5X0tMZDJuQnY1Q01DQW5LUnN4NjZlZjFmaG9kNGJGYVgxUExUZ2ZydHpNMEN5RjFORFdRM2dQekQ3MmpFNHFUenZINkl2VXI3ek1oU1A1NA?oc=5",
+      "source": "konsulteer.com",
+      "published": "Tue, 29 Sep 2026 11:52:19 GMT"
+    },
+    {
+      "title": "India's chip dream was derailed in 1989. In 2026, it's roaring back - YourStory.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaUZkZDd1Y3h3WFdGUzdFa0MwdHZtUWdCUHk2eFJfa1ZheFlNaXBNbWtuNnNVU3VNOEY5WXhiUF84NFR6OFpFOHpyUWY3SDcyMmZ0M3d6TkFRM2lGXzVfVGZzV2gxcUQzalpHc3JvallkX2JtYkhMUHQxQ0R3T2ZrVTJNV2E?oc=5",
+      "source": "YourStory.com",
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "NIELIT to set up two CoEs for semiconductor skilling in Ahmedabad, Guwahati - electronics.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPS19HZGlWdU91Zk9kLTUwVFlFekI2aDQxS2lpTWZVbHZvVVhxbS05emcwOHpzN084LVlzTERYYmRlS3NzRHN1TzZfWEE3cTJ5VmY0SFk5RXNkcjVwWG5MZ1JOckg3WmxYUWZKRnRqZjZNTWJ6SVE4N2d4UGl4UGZkMWxmNmpsWm5BLWZ3M1ZzcS1objd0U3djZkRGSWRzLXdTYUhnOHRKUUdMLTlIQTc1c0Q1dGdjSnRnS0FNRjFKR2ltdjJRVHZTenBWclVZdnBkRHhpbmlPLXZJaXZCXzlaN3dZQWNXT0thUGl6SnpMTmRaNkE3M0ZPem9VY0ExbEUxdklGdkpjY9IBjAJBVV95cUxQUFN6SF9icXM2OFdqa2p2UklmbUVZRThKZ0lKVnVYdDUxS3U2cXY4RjB6VGRicmRRUDhGbVM1QnFZdjRWSERNSXhtaVE2dDYyM2hBZkk1UGtqR05oc3RBWHUwMjNHR3BTcjZfbGQ1blVTVVRqbFBkZWx6OGNwTWFOU2s3aF9laFZ2NUF5akJrbVk2WkZJUnk5YXMtenNTNF91RmJEMFljTDNvOVNzYlVZUTRHbl9fNU1jOWxSMGpJdk1jcTgyUGF1RzI2YnBlRlZmbW1CUVZscDY2em5qbjUtR040SEtYLTd2MlhydVQyVUI2NG1KaXdjSEstbUtxUFowdk5LaUNzT3VmY3pm?oc=5",
+      "source": "electronics.economictimes.indiatimes.com",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "How the SCL fire in Mohali sabotaged India's chip dreams - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ1BWamlIWWtxekVpeU1QZEk2RXNqVjUtdkZ5LU9YSlQ5TzllZkU4X1k3YklEUE80V1pjdC01Y3lVenhGNlhxeFdjUmVXdF9ISnlmZVhzeGlQRGV6NVgxMjJ1Vnc2MVV2YkhLMzBNN2VNd0VSTHcybE54Y2hySzdJWmtibVJKTGMyOU52YXJhVHlMQjJ1SVhWb1N0N2tZY1NNbWg3WDRlckNuVVo1ejVBcWNpVVZidExjTWZtRGdJQU00TWQydktycG5rV3NaUTlZU1FEbTIzVdIB3AFBVV95cUxOS0hNMFhMZ1pmWVFqSGZkNmt2MVFtMDNYU2VoUml3VF9yTXJ6N1hSTXQyV2kxa3UyUXRVRTBrQmNDcW9PeXRFWkYweUU3ZzB2LVItQ3l2QVNTY2JqM0dDMXc5UFhFQUNLRXY1NTBVQkZmamxFSURiWGVSS2pwV1F0ZkZPYkhNNDV4aWZnYTJmblJXYlVMcThKODNmMUFyVVVSM3Foa3h5WGVqWUxyVXJWRk43NzR0TzBvMEI2NzhER2lsNnB0d0g0cjFZcUotR3pHZG9HU1ZaZ2tETjRq?oc=5",
+      "source": "India Today",
+      "published": "Tue, 19 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Centre to infuse ₹4.5K-cr in SCL Mohali | India News - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVl3NVRSaURiQmpEdnRRVm5JUzFLUnN6cDZnRjN1YnR3MVV2LVpSVFFueW1vOXRWWThlU0d1eWhQYml0dnczQ09jekZqUnpqaTF5OUVZeGQ1R2F0Y2JMWkhVSlhWd3BTVUhxUWlBTktQMDNub0d1MHV2ZVlmcHAxUUd3Y09WZ0x0YW9CRFdLUnFQR1FWLWV3eXNuTDY0TXRJNVJB0gGoAUFVX3lxTFBYWEtiNHA5QkNnVnFyZTQzNlBQRGtfY2ZhY3JJNHRMSE5qbGlQeXVVbmJFeTVPRFoxZFZlZXAwOTFObVJvUlBxYnNuUEFEMjJxUUd2Y3lwSE9nbDk4YW9rRTNsU1A4dGJ1Qms2ZUVNRlZYdGx2bXRUWkRockVFcXUyaTdMWm5MVEpwUXJkOWU4M3NNb0NMbWV2QmxITHNnR0pVNFNUYjR6Ug?oc=5",
+      "source": "Hindustan Times",
+      "published": "Sat, 29 Nov 2025 08:00:00 GMT"
+    }
+  ],
+  "2": [
+    {
+      "title": "23 Top Semiconductor Companies in India - builtin.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LNkwyUFRQdF9OOWNCVllZM0dRNFQydWpCSmZYLXIwVFcxckFtaUs2YkRvSzZPUEF1OEpkamR6ZTFVRVlDaTJwVDJ1Y0xvNGk2aE11Ym41YkpGVGZoZnpzb1B5Szk5LTVuMWRkcjd3?oc=5",
+      "source": "builtin.com",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "5 Semi-Conductor Stocks India 2026: Future Roadmaps - Univest",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yWDdXYTFaQWthQ3dieWY2bHlYU2FLYURteVZiTmpNVFlwUUJUUURKZ3hrRFoyTUZsc196d2x1bTB4RGJmTnJoM0NXWXl2QVpCdi1ZbVgtT3dnZnpkb0VfY3h5OEx4T0FCWXdGVTdGcDNIUXFuVUE1OU5GNTk?oc=5",
+      "source": "Univest",
+      "published": "Thu, 27 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "How Are Indian Facilities Transforming Semiconductor Manufac - analyticsindiamag.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUEtWZDVCWjhEVEMtTnVic3BmZ2hXdVhrQ2pzLWV3aFAxb2Z1R3pJWk1XSG5jcXUzaENTYV92S1p1VnBrVW9LRHM0Wnp5VElnN1E5QW1mei1TcmlYUTVid1gtZm13UUktVm1LMGRJUTNKbUZpQTcxcGQ5S0c4cFlwOHJjOTNjR2JQYmR5Q2g2TkJ0T3JCME1hd3o5aTd4VWZGUHdkTVN5aWY0dEYwSnc1NWtCSGVhU0E?oc=5",
+      "source": "analyticsindiamag.com",
+      "published": "Mon, 20 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Semiconductor Industry in India: Incentives and Key Players - India Briefing",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQTVRbl9ZR3VpLVZOSUJfTG5yV2dtYzY3MG1WeEZrY3V0T0FoSHQzRzV3ZXptbWtxRHd4T0pCdjFqejdsVE9fTVY2WGRfaWtUR2pCTEE4VEFOOEpCcS1kMWRTZ2lGYnlZVF82YnloY3ZOOTJoQkRsLVZNQ3d5bjNIWXNnWGl2UVpRc3dJSURkSzc5U1FZMi03TUwyaWJhZlRhVmlseTNkbXRfTnhuZ2NJRUY5ZDJTc00tUjY0c0lsSGctMEJTNE9GWW1pcjZhSERsWXc?oc=5",
+      "source": "India Briefing",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Top 10 Semiconductor Companies in India Driving the Industry Forward - Bisinfotech",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMnFBYXA0REFvVV9FeWpXcGpZb0VLRnNvZlYtcU9zRnV5NEpraXF2RS1uSE15OHZUbUZIdTJFOXFMMlhmNjhsRktJWGFfbE0tN2JvVERJYlY5UDZTSkZUV2xKWjR5SGNycVVtc29fd2Z4dllKZTdEOEFaT2xpRXFiejFrWnpURXVKMmtlekYxX3RNaVFHUE15WEtKOEs1Y1pj?oc=5",
+      "source": "Bisinfotech",
+      "published": "Thu, 10 Apr 2025 07:00:00 GMT"
+    }
+  ],
+  "3": [
+    {
+      "title": "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWVjSlFkVko4c2Ytd0V1cXZtN0kzbWxXNktTYTZEV2RTTUpNWmtiMXVNT3lwUVcyWGZaaUk5M001SjdMOU1aV185VWl6TVQtOWdsaWdXNngxcmg1TkppV2JIQ3lDOHJBWHJYZ3J4MWZWTTR2OWo1aHZ3ZEd2dVR4c2pYSkgwbVZJNUd3ejB4bkpHYzktYVNBT0Z0NldfZmxFUkQ1dmpUOTBUb083V2h3Q0NKeFhnT2RlZUpLREdzQQ?oc=5",
+      "source": "News On AIR",
+      "published": "Sat, 03 Oct 2026 02:12:45 GMT"
+    },
+    {
+      "title": "Prime Minister Shri Narendra Modi inaugurates Micron Technology’s Semiconductor Assembly, Test and Packaging (ATMP) facility in Sanand,Gujarat - PIB",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yUjFvVFpwNkhwQWFKdFVuQmhkeDhac2Rfb2RoWnA5NkFTOWpRcGRtLW1QUU0wbFlPaG9UOC1KSWhmYVNtaFJOTlV0NG9lQlRpNjNsZlY5TTd2T21QNlRaU1AwcURycUIzZ2EzWXJxS1UxVmVPS2gyOFhURVU?oc=5",
+      "source": "PIB",
+      "published": "Mon, 28 Sep 2026 22:44:42 GMT"
+    },
+    {
+      "title": "Micron to assemble \"hundreds of millions\" of memory chips at Sanand, Gujarat next year: CEO - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZWMxWHpFYnBXbmpPX2xHWThtdUF5czNEaGZDcVlMZ1Zla2dCLWFhTlFrSVVuSGc4VnRKdDhhaGdlTEd1RkFZMUQ5TFRndEFpVFl2Z3ZUdFdXVjFyeFkzSGZZaXdLNVpmamptSHR1RERNS29IT1JJaHVheTJtM292SExEM2w5VFVoQmtWQkZFeXBSOE9NdnhwS2FONV9lVXdkOG1OeGN2aEdZbU5BLVd2QndaZUFaSXd3czU2T2JWUHlNT1JkOHBDM0tianZLN2JJcllWM0pSRkHSAeYBQVVfeXFMUFlzZjI2MWV6VHEwcl9GaWxqTndqUkloT09Ra3M2bEVTSFZqcFo5cnJSLTNDVk1oeDhnbFNZMXNhdkVLb0xQSjVxUWVZaVQwaTJaXzRyaU9vZFd5OFIwbEpFQlpTenhfS2xEMVpudF83ZFhTcDRVNjdJN0pLZUJjalpyd1laSkdHdm1GUElhY3NDTEJnZWxlVzRPSHpqb1daUTlUcWNEakVLZ1VRbzU4STV0R3plaDZRVGZXZ1QyVGFySnZTcHJHYmlHcjBqY2R1OF83aUZvTkcyUlBqTXZWdzU5cDNSRlE?oc=5",
+      "source": "The New Indian Express",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Micron begins shipping memory products from Gujarat plant to global customers: Sanjay Mehrotra - electronics.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNeUZLQ0NmOFdJcElPN1dfanZXdlNjSGVNdTBONnBtYXhLODhyYmw5M3JjNzhJWkZNVGdBYWpqYXVfVGhzWTBFZjJPckppZDR3WkQ4ZVBKbHBOLTR0NGplR182OXNaMG5uTGkxWUpadml1aVhpa05qaDhHNXNpOUdwdWFIbHhrNHdZOGp4bE5CTjFOQlZaLUE3cEpUczVjTHBiUmVhSHFmZ2plWEhvaVJkRWJYcVB4YW84WUlpekZzTmpVbk9Fbzc5azIzaGlWLWEyZmxaTGdWc0ZsSjczd292bjRBVFZQc25QRHJfd1hldXpHUXlYMEJQaDBiem9FTVd40gGGAkFVX3lxTE5Qa2FSOFpxMGxjbW4xMncwMXlSR1p5RUpWekRubnVuMUFMeXMxTk44Nm1qNGI1Ry1qQWpEbFFod3EyMzJzVERRQWtSVDdoT3NudTBhUmdodTNTQ3V5aDJkRFdPQnBuUEc4VkR0ZFpGM3c2TUQ2VVpFdDFkOTdKSU96UEw0amt1SThldVZiRFZHaG5OcjBnSVpLVV9TOXpxTVdGYUxVWTg5cnFZUmVMeG1yWGpjemVTbzc4TF9QMmZ1RVY4TDdCcnk3eEU5eDM4TXhadExZQ2w3V29OeTZ0bF80MHdSc2lhRDBoUG81VlRMZ1hmdGs4WXIxLWZXVHZWLWhYODlQdFE?oc=5",
+      "source": "electronics.economictimes.indiatimes.com",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Micron’s India chip output to jump from tens of millions to hundreds of millions in 2027 - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYThWanZ6bXFKR0QzQ0gzc1NvMmI2NXhvekd1N3hLWjk4blh4RVF4SzlYT09iaDlWUGp0T0J1Xy1FbHQ5S2szdWNpb05VaHQzWmZNY3J5eGZDUVQtbkhURzVyMXdnUVR4ZDJLa09EZEU2YTVhWXNHYVlTZ3lHNkNOZWsxamJhZUpIZ2NYVkhBV1lnMDFTcmRqcnJNWlNTMTdWd245QjFwZk5IWlNyUTdkQTVxSTViWXJ2UVJnQ1F1Yi1manRvOWgxMTZ6ODN3QnEzZFo5ZjJwNWJQbkFXWWfSAeMBQVVfeXFMUHYxU0ZjakxFTld1QV9Rd1ZxNTRNUWEzMFlFbW5jSHVUSWJuQ24tREEtVEJqc1dzUGVWbmxLTUlDelNyUWdWNVVUTGdyYVJwQkV1STZydUcyUnBUeV9PTndabFJ3UXlhXzMyTmFGUFVUdy1XV2VBR2ItemRUWWJwLVVvcGRxdjZ6d2o1bVoteVM5TUU2c0tsUW1JVTM5eEZub3Nmb3lzMFNEaGFzYUNBeUJRa21iM1Q0eUZyTVp4SkZTWkNCOFE1OEJHR0FqV1dMUVd4cGNwZ2RpalVPazZpRzZCd1E?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    }
+  ],
+  "4": [
+    {
+      "title": "Tata Electronics’ Dholera fab, Assam packaging plant on track: CEO and MD Randhir Thakur - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ3pkV1NYRVBsR0ZYS0E2R1VTTHFrcG00MnBiNFljaXpKWTRaZTU1Y3FZN1BCXzFqRWlhYnlERTJ3N0xmdGpIaHlGUXo5ZUZRTTRtNU1hc1FiRko0a0hZTGNSdGtvS2laYVJXRzBDR05PWGNOWHFabTU5VUpCOFpxMHJGNmVTbnpnTDVla0tQUW1WNkJycVZVVFhDUE5EeU11WlZTWHFnUWVkalQwTHpTOUhSdFpfaUNSVlRDeGdHa1I0TXp6YXA0Qm1hUUVkc2VQVzIzQkxR0gHjAUFVX3lxTE1HYld2WmlMSGxYVmh2N0JDQUVwVkNicDRyNVdaNUUwNU5fdmo0NjFjbUJ0YjFvNlJ6TERza2IzdzdSdkx0anQ5MEpndGRabnZySlY1TmpCaFp2Tk1tR2FfQ0Y1QnJiSkdoTHo4RUlXQmhnYlR5VmVGZzFQd3VLejJfYzhaZlF5bGhKV2ZSQTJLMVhycmpIYkN1TWpzb3k3ZGRrOXI5aUNyQlZVUC1hS0c3TWs5NXowd0VZSGRRTUhIc2szRWlvTERWRGg0RmM0OW9GTWNZeGpLSkJBV3lnMXRUUHJr?oc=5",
+      "source": "The New Indian Express",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Uttar Pradesh government looks to attract semiconductor fab unit: Vijay Kiran Anand - electronics.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUEQtWjFYcy1xWE13eXFVTkd5d3JKMjhmcEtXTlAyZ3hyWThZaWowT0VaLU41T1lGYnpxWFl6SVJkUmNod1QyVXlzZHNTVkNKLVlIWm1vek1iQ2VPTTFfRzRIaFhqaVU5R0tfRnlNVV95SGFCLXdoNHU0SnFvVzNYcWVqeWpBNVdSaVNiTkFmcHV0TlBpaDBGaVE1Z2hjaHRMMy16T3lRM3oxQ18zdzVkM0NGQ2N5bkQ5a3hKalpSc1J2RHhZM05Ha01LU2xqODlVWmZxWTBhZzFhdHlZazU1RWhTQ2tkdFJUeElLTUFGYVZoLWQ2M1F0d9IB_gFBVV95cUxNMTFSTW5QWGNsQkdDOS1RV2dQYUwteTR6MGx4Rk9RSHoyNm40WWY5ZzV3RzFPSmZoa2dMUUtBXzloVGg1S3JobXpReDh5RG0zc0ZjU3pJUDJ6NXcyQm5HRnEtU0ltZ0h5bmxiN2ZmUzlVaHNUaE0yNFBJUktGcmJpLUpKRlNPR19uS2ZRV3UxRWNOQzhIQXlFUUNVeFp0d19keU4yeElZX3FYdFNKOVNETWRRakU2Q05Wd01EckZkUHdNQzZsbUJPSjZFMUJLNHZpcjkzSjhhSnFFVFRuLXVhdnlDWU4wYUhoSURtX0Y5Qk9mNTZTVU1OTG9RM3hQZw?oc=5",
+      "source": "electronics.economictimes.indiatimes.com",
+      "published": "Wed, 30 Sep 2026 11:03:14 GMT"
+    },
+    {
+      "title": "Tata Electronics and ASML Announce Strategic Partnership - The Tata group. Leadership with Trust.",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFNsUkk1eFgzWWlsM2kxNVdGTlhuZk1BVG54bGpGdDM4WkhfMlJCNHRuYXh6Q0ljQnoyM19RTXBJbG1GRlF4Vm11MkU1WW5oc3FuSHBUc2swUERiMm1WNXE5VTh6SXJlRGpnUjc1bk55dE44T3pxWjhPZU9oRTgxam92d0s1eHBvQUw4cg?oc=5",
+      "source": "The Tata group. Leadership with Trust.",
+      "published": "Sun, 17 May 2026 07:37:32 GMT"
+    },
+    {
+      "title": "Not cutting-edge, but can Tata's chip fab reduce India's import bill? - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOU1zT3VIZE1MRC15elZGcWtJbjIxdGc0Vk96RFBJMS1hWGp0a05sM25SQWdoMUtzU0NSeXg2ZXNoNUFlRXlaV0tEaHM5RXBWUmdjM0JXMlFRSUJGbk1ETzFNeTMybDJLT2lIYWxkdWJNdGI2MGZ5MU1FZlpjR05DVDhYdGFpVFp0dUNsZThlajNTbUNSRF80RmxjMGpSbE0zT1pWb1RzcGpMZ21RX0hqcnUyVlJkRnNtTld1VzZ6RVE5NmdpOWtqeUVn0gHPAUFVX3lxTE9TWGZYT24xXzd6ZkpIQnN0Y1BUbHZtTHVaMG9OcElCS2hYNXN3cW5oWVBEUEs3UWZMUjB3TEgtX2xjN2I5R2wxZENfNWs2U2twLVpXdlZHQjl0RmhsV3FnOGtYTjdod0pzeHpiNVdleTd3b1RGV2tRSGlHSzkwTnR4TmJNclh4dzdBbThFblUyNlY0N1JSaVhtR2JYVGlqYUg0ajVRU1BYU1dpX2hRVEg2VFQ1Ui1hSlBsQkg5RTVzakVBdXo0V1RKNTdqdW53SQ?oc=5",
+      "source": "Business Standard",
+      "published": "Thu, 23 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Tata–PSMC Semiconductor Plant in Dholera Advances Rapidly; Civil Work Nears Halfway Mark - asiancommunitynews.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc2dmOVNtUHkyWFJqcWJKYkNDdjR4dWVsNVpMenlDRzM2NWVldW1STGVtaklabXpXcmVrcm02bU9nclhuaW5zSGt6MU1PbEE0MEs5eVc3SWRSemZnVUJOWlZUUlZvYlpOTHgxZGplV3dPTExxdnRvbVFqQnRqbzIxOGU4UFMyTVpMOUgycFROVlZtSGhzdTBQZTNaRmkyaFNLdkx3cmRKWnUybmUwamJoRDBObllpNG81R3l6YjR3R0c?oc=5",
+      "source": "asiancommunitynews.com",
+      "published": "Fri, 27 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "5": [
+    {
+      "title": "CG Power targets 16 million chips a day as India ships first semiconductors: Executive VC - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPNlNtU2RZTmJTMVlzelpGdWhpUkN2bUNMdDgyUHhocTRSTGNaZVVrazctZ0JPV1huNnJkQ3lXZmduR3N6MFpKTmlJSzM3M2ZYVUN3WTNpRkhObTJKaS14TVZCVlNTa29aYldFeUhKU3NsWlJvSGhabU1vczBzbkhtX2ItSzJMdlBhRi1jY044RVZSTUNaZThMbVk5R1FWYWVCWEg2ZkxNeTJyTWtjRkFvbTJMNk9yRDNCT2d6VWVOMFdtcFkxV1czRUdOc1MybEt5d2NJZlFOWFJZdUZCYXdwdFhHUFNXUEUwaFRGeUZkTTUzQnZKb2FRN1FpNFQxS1NxbHZMa3ZMYXg2R2JaaGEyMlN4WlJZQWN0WkRFLVc3dm15dEh4YVlRdm1zODJWVU9k0gG2AkFVX3lxTE9aQ0sydU1ua3diakNFLUJzM2EwSjhmRWRxTVBVR01JVEplazBRcy1FM2lWTmVDY29Gd3JnMzVaQjZCMW5pN0k2UWdoVDVKNEtvYnlpOEEtR3VPTlhld2tUZGFRekcwSVZWdV9yNHBYaVZIOHJMQVBkSzhqbVkwcXVNSzBIX1RWZ2M3NXEtSW5fN2ZFWGZFekE4TUtfWTNXdm5RU01TYXgwZ2NHejFIQ0t2WW5HQmhVTFl0R2xtQ0R5YzRaSGRXMHVBWWh1M1hPTlVaSk8ySXotcWpKTjZwQ0tOZGNsbWdTRF9zekYwVUZpclNsb1p0REtLT0h3ZW11T1ZoN2VXQ2JxcXZtb29aUDdrWmZlTmJRbWRZbjRxRlcyaDQzbkJPSnhXU3RTTkZTdEpYS18yRnc?oc=5",
+      "source": "The Economic Times",
+      "published": "Sun, 05 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Modi launches chip production at CG Semi’s Sanand facility - Manufacturing Today India",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcndkb005dWZacElaRHlBUG0ySkUwZHZIMVMyTWJKbGJjbHY1THdwYm5jdEZGM0VTdGdEWWktS1luckp0cUE0X3dZUjVJN1NtUnREeVVWQjg1ZGtORFBDaUt4Q1loVWxMa0k4NFljUVhRR25zWDJkTEpRdFNVb2xGbXVVWjM2bnZaTmVuVHYtMnl6X0V4cDVOY2tpVFRTQQ?oc=5",
+      "source": "Manufacturing Today India",
+      "published": "Sat, 04 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "CG Power’s big leap of faith: Its semiconductor bet - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWHZXREdscWxyWV8xWkdRUG1qWTl2M3Q1OW1BNU92OGhuT0JzNVkwcFFzUF83ZThnSG5nc2FWM1BRWkVOMldaYVBjYnlIMG1XT1JnMFhObWliLVhaa3VBMnZ6U29EbW9IbTJaUnluU1VkX1gxTldBbl9YUjRjekpQdUVsTDEyaVRJT2FGWDVoTGo3VlVJT1g3dDJ0cjlpY0FfQ3VMQkZ30gGzAUFVX3lxTFA1cnJZRDJSMk5iSGU3cVJIOXVXSjJ3RXBpMWRvWXVjQ29WcURqSTBTTjdsOG11aV9CUlRGWHpsV2xCSkNndktaa2U5dnJ4S3p3bVJ6QW1ZeG1aXzFEMEVPaEFKeTIyaW9PNVZDQkdqVE1XVlhPYWIxZTFKWjNQOVNXTFFaSHBQOV9UU3JObnowS2Rkd0JLV0JaaWdwSkNtOEtBTDQtb0lweFdGNnZhOUFvRlRn?oc=5",
+      "source": "The New Indian Express",
+      "published": "Sun, 05 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "What is the status of semiconductor manufacturing in India? - theweek.in",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT0hOZUw0RjlCXzZxcXRvNEtJNURWRTUzYkt2ZnJQbkxrQnUzWTZFa1hTWXdoTWh3cG5zRUxnMmt6bGFjejRteTI0c3FUdlU0aXZaeTU5WGZJUWFRaTRmLWRWdXZXVUtvZnNkcVVDZkFlNDF1WVJXWURzZEtyaDFxV0gyWnk2cjFndV9YT3BMZXJUVllseHc0N2Q0WmtRNzVBT0UxcG5TX2Y4R0tqeU9Gd9IBtgFBVV95cUxQQzRqcU9kVl9Hd0lBbGQ2WHlEVDN3UXBFMUtrc3VURGY1VXRJUGU4dVpiQ3F6cVQ4dzlyRWFzQ3JSWGZfS1hVZ0V1VS1rWkN1cFBZVXFBWTJnMFZfeTJZRUVoUGRMZWtwVVQ0SG5fYW1xUDV4ODNvakVrMmYzQU85cENBck5qSjUxMmxDa2lzN3FldzBLaVQ1OFJZVTI4T2hWQ2l1QVFlcndNa2tETG40VWktbkdVQQ?oc=5",
+      "source": "theweek.in",
+      "published": "Thu, 05 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "India strengthens chip manufacturing as CG Semi begins commercial production with a daily capacity of 15Mn chips - The Tech Portal",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNc0kxMXBsWG5tNjdDdWNMVDVpLUVPN0NQMGVWMFM3OUZWYU5aakwwdWpqZXFyVzFwVkM2TExURUlWUXIweEZXcWtQeFVPaEthNnQyZ081NzUyeGJ0RExkMjMzQmxuaDdFT3NfMXF0em55YVVVTVQ0eFAwaklxb1FnaU9iVngyNkRjci16dGY4dU9meDFBZ09jZVZEN2FOZWIyb2FFd0t3OFFNeDl2ZHo0bGM0U2xiV19aZTIzSXFrTEVLa1BrUmVFbnN5cldtLTY3LVJHV19YamY3bDNQc0xkVzRrNWLSAeoBQVVfeXFMTWhJZnRhdzFzeFFXUDVENHNxYm41R2QtbG1zUWRPVUVUclMyamFsU002azE3U1ZucjROLUx3a1FOMUF4U042b1lsYXVFb1ZTVEZmaTRVOTdQRS1CUHRpNG1paDVEaTFCak56V3lPZlFhQ3dqUzNRS2g2XzNISmhVekMwYl9ramZOR01ST1lMWWhIOG5CSmRtSjR4NmdIZVlNbkE2aElWRlVXenZjQm5LdEVuU01JZEtNMk4yaXc1d294NDhYNnVLX0I0UXpCMEczYjQxbUZrbDk5dk1tOU9FMm1KNUNsUmxLY1lR?oc=5",
+      "source": "The Tech Portal",
+      "published": "Sat, 04 Jul 2026 07:00:00 GMT"
+    }
+  ],
+  "6": [
+    {
+      "title": "Kaynes Technology Eyes $1-Billion OSAT Expansion and Targets ₹250–300 Crore Semiconductor Revenue - Sahi",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDJNRHlvZVdrUEZGb1BDM3Z5S3MwWnRUNUVWYmh1TlN5V2s2M3hsT0dCVy1oT3BNenl0YXFGUnpROERycGpPZFVya28yU0NkNER5U1p6SDZEaS05aVJjanE3NktJVERkTXFTN3RaQjF5Yk5kbFZMZl8zOW1vNGVhUUlxaDlHS09kbF9ncUh6RXpMRjdMSEJwN0VOSG1SWW1Rd0FzQnpPTUZmSzFhVlN5eWdtMTd6cnhU?oc=5",
+      "source": "Sahi",
+      "published": "Fri, 18 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "PM inaugurates the Kaynes Semicon Plant at Sanand, Gujarat - PM India",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONE1jcEptVjFpSDJSX1ZSMmNjVlZFUXl0aVk1OGNfb3lyS0NkZzhXMXZSX25yRHp3dlk0Rml3N2d6TFZoSFZ6cXQyVllibldjNDZpcjM1UkVWMVBoRGtwU1U0ZmZUZmJ6VHQtdnptbEljaWtTbjJEbzI2MlkyOGFyUnJKSG5CTVV0ZHZwd1B6VlgxdkluUTdhVjR4VlRQdW1Vc0Yw?oc=5",
+      "source": "PM India",
+      "published": "Tue, 31 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "18-year-old entrepreneur enters semiconductor supply chain with Rs 80 crore Sanand project in Gujarat - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxON2xlZE1qaTZMS2lkaktuNDNqUTJLUXhJMld1SUxmYXFLOU5PMldrU3c4LWl5ajR6N0lPLS13aFRnUUxXU1BEVmp5bXN1c2ljSHRtc0Jxcmo4T0NrUzlkZUJCWmN0Wmo0dHBVLTcxWExYNWJ0czBQSEVhbHBpSUw2TmFBZmk5OWxQaEtoOHhaUEpXdUpaaXZzbUhtQ3llcVVEX2ZCNmsxOEdwQW9pbk9sMjFiMU0ySVMyUVV0alpaeDg2bnUwd0lpQVlMRnNWQk91X3duMC1CVzVPWm5wcWw4WGN4S25JTjV4WjVKR2RQRW0xZEF2eWtJM2RySThTVW1aeVRlZzRsRVRpUdIBjwJBVV95cUxQTWhyMTU1bTRIa0s5NEFUYi03Z0hob0hqR0VnWHdRXzNGTFFmUTgzLWgyVUdvbDR3bVE5M2EyV2pTeVRvbFVJQmJ2RzJXQXQ2Ums0QzdEWnAydkRreEJpbVFnWjN6OEJ5OERHUmVoNTAxcnA2Um9LYm9DWkpHUGVnUUhJYlZtV3E5T1JyQ0pSbFhBS0RDNWhQNlp0TW8zZjU5VWk4cWdHSW1aRWw4bzFaZTZyUm1CLVd3RG8xb0ZTMTBNZV9ra2RrcTB5MkhOVlhXdWhDbjAteUk1M3Z6bnZOT3Rscmhpc05LYThIbmZuNENNal9mSkcteGtuclR6SlhUdnlDWm9xN2prYTNOZVk0?oc=5",
+      "source": "The Times of India",
+      "published": "Sun, 27 Sep 2026 18:48:00 GMT"
+    },
+    {
+      "title": "Rs1.24 TRN Outlay In 6 Semicon Projects In Guj - fintechbiznews.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbWtNUVRRSjdpdG55cWdPaEZhOVdKcFpZMTJJWVpoWk84eUdsRmd5R19hd0tlMm41UXFrOVhhR1VTQk00N0pCdXp0bk9mMmtCNUdYSlVPRlhEU1FOUENXUENMMkVNWFllal9mX21ZQjB6V2NUYzZyRWlHRjd3QmJYNGctLUxCanhiamJhTDUxNmcxTzlQSWNz?oc=5",
+      "source": "fintechbiznews.com",
+      "published": "Sat, 19 Sep 2026 07:49:50 GMT"
+    },
+    {
+      "title": "Kaynes Semicon starts production at Sanand OSAT facility, marking India’s second chip unit - CRN Asia",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVHVmaFp4eDhjdVRVSmJPdHp1aHVNMEhWUkUxcGdQRVVuRnktUHRyOXMzNHU1dlppVFF3OXhfQ2xSN2lwd1lwRkhJbFU2alZkMHZIOWY2LWxFZ0VqNXo2TElfb21aNEE3OTB1elJtbDJuMlBsMldxS0dKRlYxX3FzNGdmdERBT1dtUGxiWjA5VElGY3pjUE9tcFh5TzdNaE4yNlhyd0t1a0xNSjNkMjJEc2t3M3F2cGhodkxkZWNnS1NQT1lZUEVTdg?oc=5",
+      "source": "CRN Asia",
+      "published": "Tue, 31 Mar 2026 07:00:00 GMT"
+    }
+  ],
+  "7": [
+    {
+      "title": "Reliance, HCL Enter Semiconductor Chip Manufacturing By Investing In Proposed ISMC Fab In Mysuru,Karnataka: Reports - Swarajya",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaVhIX3pReWVNbWJ1ZnlXUEpJOEJnejhEZG9kTWhOM3VGcWYwZThuc3V1WDNUS0VlMkdYNEdzWFoxc0x6VC15d0xlcVhNcEJ1WE05bDY1MkVld1VPUVhqRlFNdFlKZG9DVkFvanRja1c3SkswclQ2ZUJILXBhUmp6OFBXY3YxV0s3WDFaZmM2SVZ5dGlyMEhTSHI3dFZocjU5b1hvRmpNUDJza0hpS3A1RGVXSUsydGRMZUw4YzVDZzBsQVpRYUFyblFJVjhkUEJfRy1TQVFqWElyQmRabkpYWNIB8AFBVV95cUxQdW5LdVNoSkxlQVBINHhPT0VYT3c5dXAxdWFDTHA4b1RMQjFpNVFLZS1BT2JTeUxUTDJFVUE1UG9qTTlZeW95UC1WaGZZSFFPYlZXeUJ6T3J4WEI1TDM5dk4yNV9UVTRLRUdrTDJLM3dVQkhySkxLR3B2M05wcE8yMWlYQ0ZRUGdaMzVCNEt5dGZDLUcyNlgzUkdpU2xLdXo1QTZZbXpEZUxaeHk2TEVTY2t4ZEgta24zZGpOMWhaMlVYTTk3VUlxLUVTSldXczNCRHdfSnRiMjZvM0VLeldBTjZaaThhSEJmc2VJSkdKcEs?oc=5",
+      "source": "Swarajya",
+      "published": "Tue, 08 Nov 2022 08:00:00 GMT"
+    },
+    {
+      "title": "ISMC to Invest $3B in India’s First Semiconductor Fab in Karnataka - EE Times India",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZkNtczlUMUItVUwzMHRSUThVV3JrVm5RYUJHYnFJT1dxWkZTYWJNaWhmSVIzYWE5RzVCeEczcjdtRXlzU2d2UkxaVHpnX1gyT0poWDBqWmV0QmdWRTUzQkRsdUk1LWMxVDdTai04aWdKUnRCbVRWWExQbi1mQlBBUXFQWkh3c1RURHREWjZQbDNoa3NQN1pJ?oc=5",
+      "source": "EE Times India",
+      "published": "Fri, 06 May 2022 07:00:00 GMT"
+    },
+    {
+      "title": "Karnataka may become the first state to have a chip fab - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUndDQUE4Rm1EZnFLb1pSU2drNWtQei1WV0ZOLUlkdVFlem03Vk5iNWFZcDdmd0RfakhnLTgwaEZyMVFEX3EzdTZYU1pJbjVRLVd3SzJQdTNwM2htejQwZGNIcmJNOEhnSFFlNl9wUEFqTzRPdWdmenFXYXZMTm9ybXFtNjhrMDdFTC15b2htTHduQnRqeE53bUx5UHBvMTB0YjlUTEhLOWVpMVh6LVHSAbMBQVVfeXFMUHlfOEdpb21rSGFLaTcwSnc3RFhUSjFLSGpaYkE5THlCeUZMTEFBTjdWZmpIb1NiYi1idy1uMm1aUk03Y1RBZG1UMjU5b29QVnJtbzZDY05QSXl2Rk1uVkxjRVROS2hlRVMxQ0owQ2dLOERmR2Rha2hPa0R4ajV1aHZNT3owS09FaTlqX1dxVGxEM1NiVEI0S3huRDhuXzVHMlBXRFdVNXpXejR3a0RGV0lpYVk?oc=5",
+      "source": "Livemint",
+      "published": "Thu, 17 Nov 2022 08:00:00 GMT"
+    },
+    {
+      "title": "ISMC inks MoU to set up $3 billion chip plant in Karnataka - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMjJEZ0hzc0NVNVdhS3NBWjViWnJxTk5oeVBGSk5IcTFnYlhHd2dGSlpCUjBXOXMtcndMVFc5ZXJoY055Y2h0bnJwdlFQRVB2WnlFdU96eG9VV2lRSXdoRkdsWFJjTFdUaDlYM080TV9yX2p1cVZKbVRjVnVpVGRkSThvTkY5Ujg0dVcyY1VUX05KR1ktNnlOa2lPVVdzU1p2UkhjbU5iZEVFRjg1aGstbVdLOGRSWGRndXphZmZheDRQbnBOYXVsV2FMYWV1LXczUkFiYzJVWXJJZ9IB3wFBVV95cUxPRmdud1I1UUQ0UGJPbEtWSEQ3d0hhX3JPcGVId0g3V1VnOE9KSndCQ21TZDVKYktfMXdDLVZXTENfZmxfQ2VkUmZzalBVTG5rMVUzNTdpZW4tMS1iU0k0Wmo4dHFLTjRNejJTTTRKZ3E2YmIxVHg2Wk52MnViVzgxY3Q3ZEhmV3A3OWo0eVZXTkdmZ3lLR3N0OGVYWm5jclp1b0hoT2FVT05oNVFzdnBkNm00TEVUS0M2Y3Z3RExldXBjSnJ0WFI3U01sSnpTamNUZ0xPcVM3bU1hOVZHVjM4?oc=5",
+      "source": "The Times of India",
+      "published": "Mon, 02 May 2022 07:00:00 GMT"
+    },
+    {
+      "title": "Rs. 22,900 cr. semiconductor plant to come up in Mysuru - Star of Mysore",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXZfQlhzVGo1aUF3Y1JRbGRtZTRLRFROZ3ZnYkZYNTNGTVd6dWYyd01hZXU4dmplTDZVOHV5RWpWZ3lsS0xPSVJBQm5hMXV5RV80ZjVyODBxQUtRMEpzU08yVzdxUWhzX3FGSF9jdUM5dzNNZUJFTkExaGdQQkpXb2dGcmE?oc=5",
+      "source": "Star of Mysore",
+      "published": "Mon, 02 May 2022 07:00:00 GMT"
+    }
+  ],
+  "8": [
+    {
+      "title": "HCL-Foxconn JV names Shikhar Malhotra as Chairman - ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzlVcVZrZ2QxRDM3LXpYWHVUYzB4dlE3bHBGdXV6OW1ub19BSm9WX2FDX0FxczBlbVp3ZUxZVVlmZmZ1eWJVZkdrbWxUZWgzbzhSZk9fSlRnbVd3NEh4X3NDUGVNcXp5U2FmdmhUM0lWSGh4MUoyNVpJOXJmd2ZfMVBsNUFvbWpXMGNNanJjQ2xXeW9uSjNkUlNIa0gzU1R0SUQ2WjFjczFPOWNKdE11d0loeXBsbDVs0gG-AUFVX3lxTFBxNjUteHAxdjRPUVZPaDBtZE94UktrM3FFV0pIWmY4cnozN00zRkVYWTRPSEl2a1J2b2ExNnY0NkdianZGSllXZkhtWDhwMi1fSk1tcllqUWxuWTVWT1BHVmMxQjh2NHl0dk9rdVlOY1pkdnlnYXloQ0xRZHl0RzFaMEs3U0c2M3I2WVg1U0ZldUtjOHpqSzlnd3ZBcm96aUxWZXZnczFYTXlHV3FxUjhBSzVyQ2Rxd1dpQ0k1NHc?oc=5",
+      "source": "ET Telecom",
+      "published": "Fri, 14 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Shikhar Malhotra to Head HCL-Foxconn’s New Semiconductor Facility in UP - Bisinfotech",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNUhZZUwtaFdqVk54T0FQTkJFZW1qdFcxaXBTOFZzSU5EdWtuSU9rUUREOXZiNkdvcWVMdS1hMVFxWVA4eG5Xd3h4NWhJUjd5QkcyaDFtRFN3OWlmTjZFR2Ytd1VKcTlhZUM5MmJycGJvaDRHSm9IVGxzQWtKZkhlMnI2MEk3Tmk3eVUzQUhXczNTUjdJRlJvbnV6aURuWkk?oc=5",
+      "source": "Bisinfotech",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "HFCL-Foxconn JV appoints Shikhar Malhotra as chairman to lead semiconductor OSAT push - tele.net.in",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMUM0VnN2VjBjWHVqczBua2ZwcjZSQVNzMk5CRVJheDU5dTFqOV8wNFhBYkpjR05yZE9fTEFtd2ZFRnJMeVpOR3Bpenp1SWYxMzl0TkZiUHRTd1JjNFBGS1lFZkZreS1XQkN2a09fSnU5dnNSb0F3MHZKU01GYkxTOGNYVjQwWjVOcmxYRWFqeTZ4ckhqb1Q1TjdvZTA3TW1rS0l6SjJGTjJQT2NmeTdvSGdJaGNwWUk3dzVHUmdzbEtyQXprdDdZ?oc=5",
+      "source": "tele.net.in",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Modi says HCL-Foxconn OSAT JV marks key step toward chip self-reliance - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRWtrOGJuY1d2ZFdvQUZFODBsa2wzc0JTUXpQaVdDMGp0MTVuYVhFRGg3M0dJTVdOX280OUFPLTctdkJDanFLYWZ3SjA5eVZqUWtGVTlnYkNDRGVCRFZPV3VFYlJORFZORWYyZWJhUWJlWEo0UzdoM25GMFNaTkhKQ2g3bUNsTWtweDAtdmgyejdfeUtKd2ZFMzZXQzBaTUxManNaWVE2alBtSEYwel9id2tNR1d0Y0FxdmIyMmptZG9UZ0JLZ0V2TG9B0gHPAUFVX3lxTE5SY2lEY1BVQl9wRkUzRExEdFdwSG54WnR4WmxCZ3FsaDNaWUY5ZGg0LVQ0SWtJTU9MMFc5UUgxQ1VsSzlEa1hKdU40MC1oUWRVTDlBSl9IcHVRSk9lMFFFblhkM1JPQUtoRXc1QkZWc3JaNFozVnFXX21CYWk2NC1uS19EY2ZpdEtzWGM2dEhUN0FrSk1PWFdDY3hHX3JYNTlJSVdZU0R2anU2ZDdOTF9qMVM1Ry1XU0dYRmtpMlUyQ0lpaGtjeDdyRThpRzFfYw?oc=5",
+      "source": "Business Standard",
+      "published": "Sat, 21 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "title": "PM Modi lays foundation stone for HCL-Foxconn semiconductor facility in Uttar Pradesh - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU1M1ODN3cGNlaGpLdDFuYTdfNVRFdnZ3cXc5N1ZxRVpBUmJ3djNkRk41Y2h4VDZWaDhuV08wZng0UXZ4Z2VUT2pWRDV3NjliUjhxcHktc0Q0dHZZblhEZEhmb1p2TThwcEloeHRxLXBhdmxzVTNQNTh0QTU4VVhMRUVDbWdmT0tZNmdoZUo4Wm9namsyamRzQzh0amQtY0lOOHo0V2JzWm9seXc4TzdaMGIzdlBtREt1Y3hPck1pZUZYNGUyR2M0UkpFOEJhUjAyMmlmeNIB2gFBVV95cUxOeS1Nd3Q5TVlEZWRDa0hneHR3NVNLZzl6UUNlLUp5VzBFc3BCY3JPVW14Y1ZBQmdFN3Z0b3d3MmtnbEl3V3pwVnZDdHBSM25pWXFLbjJLREQyc2ota0xodk9tT1A0WlBXQ082Y0tjRUVnNjBqMjl2LUcyOHBsR0lwX1FYWkNOUVVQV3djMEp2dHN5WGdUUFd0WG1rZ25kMFJTd2F2NmRFdU40cHRjekd0RVRETzNlMGdFeG1TVFZRNm01NUE2ME9aN2NIODdRaUVscUdMVHB4MzBsdw?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Sat, 21 Feb 2026 08:00:00 GMT"
+    }
+  ],
+  "9": [
+    {
+      "title": "Expanding India’s Semiconductor Packaging Capacity With Three New Lines - Electronics For You BUSINESS",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNVhpTEVrSkV1anN1TEhuT3NTUXAxVXduUHlXVUlCdEZHQXlwNXo0cG9TTnNwZ2pMMjZSTkIzbUJWZGhxQTU4YlVsc0xSUWQ0ZmQ2aXNLSFpLNWllaFVDRlgtdnNuYm1zX2JGNTQ0NkFsY3g2djFjY2N1b2x2dmp3N2o5azFwc0pmQ1Jqc2tvTlR6aGxtcWRudE9yQUk5SUlLNlpQbmRRMmtQSUx6dVBsRWREQ200TVVx?oc=5",
+      "source": "Electronics For You BUSINESS",
+      "published": "Wed, 30 Sep 2026 08:06:43 GMT"
+    },
+    {
+      "title": "CDIL Expands Mohali Plant Boosting Semiconductor Capacity - Bisinfotech",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRnQ3WmRmaFJhbHVHQ2htWFFGODhXc3BnOGllWEFhUXh6WXpqak56Z05tRFotTFRZS1puOGRheHJpNHRUaFdYRW12QW03VDVFdXdzTG01RGhnSjJGZ0FiWXRMQ2hfRUdUQkRSRFdxTkRPaXlQbmZ2eHktUHk0bHVxUDc2aHQxNEh5bVhEa01XYw?oc=5",
+      "source": "Bisinfotech",
+      "published": "Wed, 13 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Cabinet approves semiconductor manufacturing units in ODISHA, PUNJAB and ANDHRA PRADESH with an outlay of Rs.4600 crore - PM India",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNlVaQ2s2UVVVM29EZ1BUTmhZLWRZOUFRR0ZBdmF0dkdjZHJ6dm12bTg4Si1vdzJ3VkNfcHZwaV9RVmdqYkJITC1ZakdHWDE4dkpjT2JocjVkSEdPWEZISnY5eF9CR2pmbkZ0M1dqelJjanFCSTZkcWtEODBfcVVDNk00dFN4NTI0NWVYTl8wS1hPbUNUdDhjWklkMWMzTld3dTVhYURJcklQU08ySTQzNmFmVTFlVEpYQndZQ19kM2hXY1QxZGk4dGlDN1E1bno4TmEwMFoyOU8zV09KRzZvVzhwOUxLQ1lYQmh2N1RHT1hLWXNj?oc=5",
+      "source": "PM India",
+      "published": "Tue, 12 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Centre green-lights semiconductor facility expansion in Mohali - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRzZIUkhpV25OZ1hRRWJkbE5zN1VFeDBNUGloajAwNXZ3TzZGekhPZmNFRWctLW5zdVJCZ0VkckRIUDBLV0ZQMG5kc1R5RzgyVnk5djI3amtrS1BGNktpZFNrOUx4WGc3N05wMjU0Y21mb2FKWFNGTklZbHdTWlRHenJJVnJuRVg0SHN3NVhRM1JpdDIteVVSX2xxUHRBLWE1YTN3dy1HWnlrZXRrcFhtazlGUXo4N2VfbVZHLUR0OC1MZW5LMFhocDU1ekVKaEVVRUNnU1k2VdIB3AFBVV95cUxQZWpHT3NNQk5XZGMwLVFjaVdHaDZBNlhzdmtqTkR2cUJIaHpFYjZmRVJDOTAxbGlES3hTdUN2eXZNR0ZYSzFBSVJHRmRITmVLd0ZxQVMyblI3ZHlsZVU3UFNZZFE1ckJMQ3I5akxVTW9TQzdDaDJlWDFOZHU2cWYtVWNlRzdMN0hRcE9BX1IwOXZOQk92a2htUUNVWGZLYkhBcE1DbTkwVHB1LUdFU2VDcGFZRnpYVXNsVkVSeXhGRXZMaVQ2UHhacThZYVhhQU9VVVEyM1pfSUdxeEJm?oc=5",
+      "source": "The Times of India",
+      "published": "Wed, 13 Aug 2025 07:00:00 GMT"
+    },
+    {
+      "title": "Mohali-based chip maker CDIL plans power semiconductor push, EVs in focus after nod from Centre - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeFBxY21kZFFXb1dUbXMwZHBQSVZ2bTFiWXF3ZGt1ZUMzeG5lelQwN2xCSkNtcV91OEtJS1FRaUxNWW9GZllDTWwtZUtlQ0lKRFRsTFN6UGxodkc5XzZSZHpfbGFaLW9VMmMyNjNnQXlJSWZNQjBnU2FFeG9yaEFqMG9DYUVRMTd5clNZcEROU3h3Wi04alI1ZkVTaWZkZjBKNWRCMW1LTmpGSEZvSXBjVEZZUmVJTWlJYkloRl9hRE0xaU9vUkluX2tlaHJkVktSQUpEaWVOS0ozYk3SAeABQVVfeXFMTVJINEpmczEta2NnOFJ4VVRQeUIzTDc0MFZzc3NzbnJJSkZhaGg3SnhZX2VwOVVoMF9KSUJ1Z0RRYUJlM1FTTEhPc2Mxc1FJX1Vhc056UnF4V1IxbEhwbENEWTUwT3JITkRldEd6LUVkVk01Rjh0UDUtVVVvNEx1QW5BX3FjMmhIYm5QU1hvcUNXemtWeFpKTWVDOF9VcEh4TzhsT1lYZzA3dS1Dd1FBSXRCNTRzc2Jtc08tOVJVaUF5VU9xYmdjSlVROVRWZFdmTUpzU0thTW1UalgyVVhma00?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Mon, 18 Aug 2025 07:00:00 GMT"
+    }
+  ],
+  "10": [
+    {
+      "title": "India's first vertically integrated SiC semiconductor unit nears production - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaWUtR19zNVdlY0k1MGg4MmtnN2pNbkFRcTdvMWhaYlZjRndPLURERGtWWXQwTWk4ZWhSeXBUV1pSaVRMMTZNTExNTGx1YmNzM213TzlZS3FyV3VUTVRtWnpnV0F6amRjdXJDejRUWnluSkdSRTJMbnBZZ0RBdUZ1UFRtVlA1WkV6RVZsOXJnWmFuVS1NVWNjZWV0X0pBVXRkcGh0ZldGMFZaREI0SXdoellpLW5NNUpoNG1Ubk1aZUVxOWtnOVJTZkxjM0RQTE9WOU54WDM5Sk1lUGvSAeABQVVfeXFMTlVFYjl0a3U5NTZfSWFNR0pNY3B2VDRwVVZnZnliU1ZiOHRrNjR2NDBWdFE2SWZTUmgzTjVWRmdOa1kyUGdMRXhFQkV5OF9TNnF3eVlRSnFyVjNpS0dNZzZiZURuRDdqY05qa1h5SkE0NGJ3Vm5tUmc1RzBubWxHU2V4ZWVDSUhhbHRoNWZrc0NhVEVsWTVidHZVMVF0TDFtWlZzYUQxM1JTNEpEaU96cXhBUDB3NkR6SjdoZno4dVZTbThkVXJkaFFqTk92S3VZMjBBeEl3Z2xVTXh4Ukp0bEs?oc=5",
+      "source": "Business Standard",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "RIR Power Electronics Strengthens Silicon Carbide Epitaxial Wafer Manufacturing in Odisha - SMEStreet",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMnZGN2JSbE0wM1Q3cjFvRmF5MDViVmZZbThYZDl6TkRHQjV0SnFOZEJDenJSQnVRaWwwNEtSS21nSF9RcDU3X1I1RFNJXy1mTUZ5czhuLXoxNmdUYjV0aW1GcjZWYWtDWG91OFRMcUxvaDl4NWFwbUY1eUdSTnhLbDctVzdpNzI5QWVrUkhDenlsNVo4cGpTcjRyaXd4ZDFpU1J4d3hkOHZRSkdVVnY4UmpLUUxlR1Uzc3lHc3Rmd2xaY2k0MnfSAcYBQVVfeXFMTzJ2RjdiUmxNMDNUN3Ixb0ZheTA1YlZmWW04WGQ5ek5ER0I1dEpxTmRCQ3pyUkJ1UWlsMDRLUkttZ0hfUXA1N19SNURTSV8tZk1GeXM4bi16MTZnVGI1dGltRnI2VmFrQ1hvdThUTHFMb2g5eDVhcG1GNXlHUk54S2w3LVc3aTcyOUFla1JIQ3p5bDVaOHBqU3I0cml3eGQxaVNSeHd4ZDh2UUpHVVZ2OFJqS1FMZUdVM3N5R3N0ZndsWmNpNDJ3?oc=5",
+      "source": "SMEStreet",
+      "published": "Thu, 17 Sep 2026 09:35:37 GMT"
+    },
+    {
+      "title": "Small cap stock RIR Power Electronics share price jumps around 8% today: Here’s why the semiconductor stock is rallying - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcmhYQmc5ejU1OFB2TWthM1hqYlN0MWF1alJWUk91UWJxcDlzV052OUk0cHZNU1FlSi11b1dXNklQRTNrOHprTXNIVG1pdGVONUFFdmRyTHVZQ2FwakdLRmNERGRNcDdUZ21zWHFKb180ckplZ0Jad3RwSTNLUVZqUjNjLWIxMjVFS01TLWRzRVJNZ09jaGdXaGR0OEoxeXoxWVk5bXcxbzFLUG53UUVhc3h3a0xSejByQkd0bEpjYkltTnZKSWp0ZkI0MjlOOWlvYzhRY3ZhR2NhblFyTVNTTnNsWElJemhhZDVwRGFtaXVzZGlCZWZERFhZOWhLNjFuYkhCV3diNFZueXp2WU9kNVI1cjNod9IBmwJBVV95cUxQNWROOG5WOWpuaGF4aEV0Y2YtSFItTmhUaWcxV0pXN1NYMHZmZ3UzUlg2VmJteGNrWk5EanZHeG1PemxFZ1MxRGNKS0FldHZ4YjVTeTN5U3U1SF96dFZQekFFVXZFVjBETUd2cThqVGdOY3k2VUQzNDFuaE5Gd3o2dmtSdHBUb21QdmpScDZuVU9uX1pGVWFkVGxlRWFKaWJsWkJWa3VJODBQOW03MmVkNGhqaHBvZmVCc3ltb3dxdTE3dG5SUE5neVNsVERtRGZON2hsQ1ZmcFMzMy1EdlNJTmRSQVowWjl3N3RLTmF0czlPenhpRExiVVQzWXc3dWhJeVZrVHJDbVVneTRkQkI4amgwbWFIRTB2cGJz?oc=5",
+      "source": "Livemint",
+      "published": "Fri, 18 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "RIR Power Electronics Standalone Net Profit Surges 79% to ₹3.1 Crore in Q1 - Sahi",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbm1yWnlOYld1VHdPTVBwTE54a3loczVkNHZ3d202VTFIeEd0ajZwWkp0LWJtekV0UXBZeHhOOTVWVjctb214bFNDLVdyb2ZQd3ZlSWI1eWZWcENadm9GbE8tck5IN3R4VFc1NjcxQ0NQNTdDSHc3ZGdLSVBwUEdGYk1JM2hwemhpUExNMi1Dcm5LZEoxdVVCZTBzaDFQeWM2NTF1WXJUWlpaemZyVFRFUQ?oc=5",
+      "source": "Sahi",
+      "published": "Mon, 10 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "RIR Power Electronics completes SiC reactor installation in Odisha - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYU9vb09FRlZuaW8wQTIxRWZRZThaZzFvblNWZmJGN1dvc18xREVYS080bWp0VWdlMjFGZkdhZEJSVzBiWUNQckpmeWU3REVRQkNqMGt5R2RpbUVyQWc4dlFQbE8yTklaT2dENGhoOHB3RVB1S1hrN2lEMjBzYWtaMnBKVEdET3BjZnpRUHhSTEUwWHdzYV9PeEFNbGczdTFtYTRyODhHcmREQUN3WU9FY3RNX2ZIdjRlSmhVTw?oc=5",
+      "source": "scanx.trade",
+      "published": "Wed, 16 Sep 2026 07:00:00 GMT"
+    }
+  ],
+  "11": [
+    {
+      "title": "Union Cabinet Approves Rs 3,936 Crore Semiconductor Projects In Gujarat, Including India’s First GaN-Based Micro-LED Facility - Swarajya",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMEl3OUlwSV9HSE01MjRhcHFxZVE2LXgwLXJXYzhEWWJ6S1I5VEQyLWNza3NFYjJjdHRBdmlMTS1nMHJaYUFZTWFkRmFMNjRkc1J1RHlMNDBFdS13R2NXSVBodE9qbUFVcGZDRVZHZkJNSmNiVk04N19xaVNRM2trN2phQXBLR3poeVBDRGJBWER6VmI5NjJJcmFoa2szNzEtcDM2WkJ1ZjV1aWZrWmdueEN0U2hKZ1cxVnlueENadTNHcTROTWVpeGdOcC1tbzhmUVc2QzZuMU5XU09NRFdZTTJRVG1NQjNtbTlWVlFn0gH-AUFVX3lxTE1RZDZGdk9CY2gtdkZTb2tzSUY0Z0QzVWgwaWJrQ21vMC1QZmZFNGNBelBMZllyOXphMm45LW1wUmJGRXQ3WE1PN3dNdWZhUDVKTVdjM0RtWjZqZTlHcWJoRWQwaTlacXBUUzhFM2lteHBucG00TmpkVjRXemlReWw2N2tnTlg5Z0M3bVlxc01FNDJzZWlnWm1UQ2lEcC0wYVgxOXdScWpBT2pZM0lXanJsTmdJcWRfTXBaOWR0dUJ4WTBsQWRCdjQzRnUyS1pVTEVMamExX1ZNaDRvSFFjcmpLbTRsbU85dkFJeTZ1dkNYd1FETFo4X1lBVnBZTHV3?oc=5",
+      "source": "Swarajya",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Centre clears two chip units; Crystal Matrix to set up Micro LED fab, Suchi gets OSAT nod - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWlM5U0E0djFLckY3VE1YdnIxUVk4d0Fyd0NVVzFqOTcxOHRmX1BUZXV2YWQwN0RyVF9MVlU4QkI4WFdCdzFaY3ZKQ1N0MVEzSFlra2IxSmJKVXY3dFB4akFZX202dE1RZm1lMTBnVUcwZHhOWi1SblRZRWlrY0Flb1V3MllzRnJDaGNkd0lwNTRnSHpSNnFyZkE4VVoyTWs5U2VrcVJna3FvSWpkYkFiSTNrNTk1VzBYVlVILTBWSks0c29YTWZHQjBvWjFKOGJZSEZTa0lqd9IB3AFBVV95cUxQU0MzdHlab0xJelQxNVpoQWdKT1l3b3dLWWpGQUFHRkZGMXhFNl9ZaHVBWDloTk5rY25nNEpsYzdmNjluT3JzQm4wV2JRS05ETXZiTkszWjVBZC1CV0dZRVUzUVBHdXplYTA3WlVzdVVhRG92WXpRSC00VWRwSTAtWm1fNTlteU5IV0pkMmVWNGhxbGN3MmlIX2o3LVk1MXM1QVhNSnVrMG84aW5LaU1sTl90RmFvdVpJQXhrWEFqUHRhdVVZc0FPZS1aeWlqTHJ3RHdRZUtuZGxjcjVj?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Cabinet Approves Over INR 3,900 Crore Semiconductor Units, Boosts Mini/Micro LED Manufacturing - Energetica India Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2hQU0VvanJUWGVUbXJiSy1YWFh2dWFJc0gtdGxKaWJVTUFDalViVm5qUkhMeWo2UmNRbWw3bldTTnJNQlBBN2VpV3lEazBTaWg0amtYQ3pGb2pfbks5TXF4T3pmSFpmQXlsV2VBczlmR0hlbnVpOUF4aVNhcjlnUktMc2RhbjFxUlFjOHV2Y1lrbzg0YWdBcXdSOWJvOXNXenNTNUxkSVNLcGNIRjVQTzhCc1MzWFJBb2NUTmFzWDBuUHl5VFlucA?oc=5",
+      "source": "Energetica India Magazine",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "India approves compound semiconductor plant - Compound Semiconductor",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT204cWlwZ01ENHpXdTVSVVRyNzluSWJSSHBjSTZLY1V5VFdmd3Izb0lsd2FvcmhjUExiTlUxUnlvcHplRkpNTjZ2d0VDd2FRZWpmWHpHYnI4QU9JenBvS3J6Wm1iWXc4S3lZRnRleFd4VU8zcUVjeV80VjJ6enpZMW1Ccm41NFphUzRKY3Z4MHJSdWY1WTE4?oc=5",
+      "source": "Compound Semiconductor",
+      "published": "Thu, 07 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Union Cabinet approves ₹3,936 crore semiconductor project: India’s first GaN-based Micro-LED unit in Dholer... - Bhaskar English",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVXJEc0p0UnNmMHJ1bXpVTE01Snh2WGhqM2xqOGRaOTJFeFpvaC1TdnVJV092R19rUkM4VlN4Rl9UVUhSMWEwel9IMUhDZ3Zkb3pzNVpPY2lKaHJpNFl0UzJXb2ctNnF5UWF3YTNKRW1POGo2b0ZtZm5kVnp4S0hITHJBeFBMRWdKYmJPY2pUbkEwN3JMQW9ZbXRxb2ZHTTRYQmxyb0F3QjdMUk1fVkd0Si1GZDNtY3puVE1FVC1YdHAtR3M2YXpOc9IBzgFBVV95cUxQQTdxNzViTTV3UW5iRG84T0JaQU1QUnB2M3dvdF9pLTJMaTFoaGRxa0lEQTBhclFsbTM1Vk9KLVRtOFE2aTZJUXFyTks5YmY3NG8xM3FVbnZTaHNxWjJ0UVI3NzktakJuVjRkek1GUVJsS3VEZEJ5YkhMd0haUVhTd2JKUXdhYm0xX2tPeXNPOHFGMnAyQ3dkLWRTcnBzSm5NWTFuNUxpcHNLbU1HSEtyZnhWekpMQzhfYzl1SV9FZlFfUmY2bEpjamZMaE1nUQ?oc=5",
+      "source": "Bhaskar English",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    }
+  ],
+  "12": [
+    {
+      "title": "Tata Group to Build the Nation’s First Indigenous Semiconductor Assembly and Test facility in Assam - The Tata group. Leadership with Trust.",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUxJM3NuUUlBUFd5Y1FrZGpPVUNudGM1aW9COFFoekxDbE01YjFCSjFxQ2g5b1JVc01tNFBEOEhXa3RkNk9MRmI2WVV1TkY2OXhwMVZXY19xR0k5eDRfZTZ5TnZVeXZndmlYcnNyY1A4S1Z0Rzk2UjZpaHhVM1ExV28zV1JnNnFROUVfN1dsc3RUZw?oc=5",
+      "source": "The Tata group. Leadership with Trust.",
+      "published": "Thu, 29 Feb 2024 08:00:00 GMT"
+    },
+    {
+      "title": "Tata Electronics to launch chip packaging at Assam OSAT in 2026 - Communications Today",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZU1pbl9KYlpkQXh4SDZGdXFkY0luRFJtTUJUc2VOd0c2TktpRHhSNjZHVjVid1BKUGRNTjk2dWI4ckNEWnN1d19hNDlabXY4SXV0ekpVNTlnSWFUaVJaTkNyQWVTWXUtNmpWTnQtQzJRMFlQRUNzLTdna2JJa1daMUNnUF9WamxnREwwQ1ljUTNJWHdLNWpmMHVwRnh6VC1fVXlIRQ?oc=5",
+      "source": "Communications Today",
+      "published": "Mon, 25 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "₹27000 crore Assam semiconductor plant to be game-changer in India’s chip ecosystem - cfo.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM3FHTExzV0ZyU1U1RnVaOFhOclpYUUVXVWxoTktvaTZnTHNIRVFKNV8yZzFUTHZEeXRYZHpNZVQwTUtUYXhTSHZDNDMzeDh3X1pLNDBpTHFoeENaZ2RkZ2lVcXNfUV8xMjhMMHp3QzlFYjNYbmV6dVJUY19XMm9kV0hSU2ZlNWZaaDVZVFBybThId0ZER0ZUbm5uY0xQV09FY3dOOXpid0RjLTJEZTFIOEo2NHR3eGdBZE1vVHpyR0xqVlgybHk4czJzOVgxY3ZuZGdWTkNkdWlyNTRPZ2fSAeMBQVVfeXFMTm5WVzVCb29HZE9oTkMtdzZKWTBHYjZTaHZFZ3N6a1h5dHgxSV95UFQ0cnRpYVlHQm1nWDNEZzVRQlh6cXhWazhGdEFDdlpHUnlDRVlYcmNDRFR3dGVZbjNHQWhtUVRkMzQ0ejJqOGs0NkhFdk5tN0lCZEZHUWlfbXdlR0Z5ZjdmMW5tWUV6djFsVWUzRmtxdWJwS0lIdE1rRE5DaDd2aWg4Q05zYk9FUVV3elJwMUlfTnM5MWVZbHVKdHFiX1VPMEJwMG4ybFlXNXpCV1AtQ3ZkcXlseDQ4ekIwWVE?oc=5",
+      "source": "cfo.economictimes.indiatimes.com",
+      "published": "Mon, 18 Nov 2024 08:00:00 GMT"
+    },
+    {
+      "title": "Assam: Tata Electronics Performs Bhumi Pujan For Rs 27,000 Crore Semiconductor Chip Unit, CM Sarma Calls Its A \"Historic Day\" For The State - Swarajya",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYjlZc0lMN3RZRGZNVG1Kc2xUOVBaaUozblJOMXZkVEs3eFVaQVFMckZPX1pqRDFtUzA2elFyN2c1YmJTMTNjejltZU1TLWJ6YkhnSGxqU1FnNGdLY2lpa2ZTb0hZS0hiUjZLU2pISl9sRVZnbk1aSFdhQkZTd0lISG4zd0pPSEp3Vk5GbkVmOWNPZFpyOEhCaWhJLU51WDNBdmlkekZDZmFZbV9vYnJJVHNYd0gzTmppd3NGQUEwSUtPNnJ5NXBmcVV5MzI0Yk9mSDVKV0pJUWY0cExOOXVheU9JQUpwRk5fd2VjTnpjRlTSAYACQVVfeXFMUDNULWhPb2JZbWJIQ0VSYkZRbEFQUDQ5ZXBLMTljY05USzU1R0pubngwY0Q3ZTJBTkxzUy0xMnRWaUxwVnoxLUFUejZrSEt6NFFOMGJYX3o2ZzRlRzM4U0pVRXUyUzA4RFgyZV9BeEZ2MzJYTU9ha1NfbGNCdWhqWEN3WG42c2l3cWVMbkZoamR4Q1J1ejhzWDNMb0h2NWpMN24zNHpabTZIZXJEcms1ZTBnTTdzQnc5NWlvWWhmOEU3ZVEwR29ZazdZLW80TGxhSHNZd2dxLXAtLTk2THN6d21pd0JoWFZZdzhUM1Q4RURVaGtTVmY3a1BOd2lTeVM3Sw?oc=5",
+      "source": "Swarajya",
+      "published": "Sat, 03 Aug 2024 07:00:00 GMT"
+    },
+    {
+      "title": "Bhumi Pujan performed for semiconductor assembly facility in Morigaon, Assam - PSU Watch",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXZaOUhKckdnYl81U1JleTlkOFgyRjhfdW1TSWI5TEF3ekVNTHRibGtmc3NUY0RBbzNDenMtVjNRdmRwS2ItRXE5NEt3TWxQOFVjT3Y5ZlZjSnNMQ3N4cVNoUmo4bHdUWFhSMm9TMXFRSkRud1c1NFFGb2ltT29TeERvMmI0R3B0Q1FLZmh3bTJocEdjaHpKS19nQW14UnlKQWRUcDlfWl9MZnMw0gG6AUFVX3lxTE1JaUQ3c0VsNWMyNUlUYWVVSHR2MVlVZEp3WFZFM3A4TWlYWWhpcGp2b0VzeHJSS09zMThhVTczY3BJMWVDazVCSTFfTVhlaU16U1RjRC1QcllkaTVOaVpPcUlpSkp0NWtMWGtmNG5CSGxtRVppclJqaW9XQ3I0RURWb3hXZUtPenM1c3ppa3pUY3BMYWdxeW9rSlRGSncxb2VkdzE2R2J1Yl9MZFRfM1ZGTDU5WkJmdWFFZw?oc=5",
+      "source": "PSU Watch",
+      "published": "Sat, 03 Aug 2024 07:00:00 GMT"
+    }
+  ],
+  "13": [
+    {
+      "title": "Rajasthan gets its first Semiconductor Plant - PIB",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YYUctX1Y2eFl1TXlrT1Bua0E1eEtnSjlLdkpNdFhqMWVFU3E5RFRSX1FPQ1VNdzFYclhKYWZmN1hfYUN3UnB5dmFwUGNwV1VlZ3p1Ukhub2VXaDJyX1RzUndYSVd5MWQ1VmtsTWE1cGJzWEhLTURWVVRR?oc=5",
+      "source": "PIB",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Rajasthan Operationalizes India’s 13th Semiconductor Unit under SPECS - India Briefing",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaUxVczRlZnZtdzRabGQ5bHpyMFpIV1FuN09yOEVlR0V0X1duWFVXY2J4SEFNWXpaZDk5cG1pZ2lqckdoRVVRb0VIb1ZNMHloTVo0cDFsTUVLa3BxWEVWWGVReTZWRmNZakNHdlBzQ3Vjc2U3eE56Y2pFNUpHTnVXNUEwOHZaOGd6MFNWQzVqMFoybHA5eTlrMVQ0VU9iTGpoUFR6Qk94Z00?oc=5",
+      "source": "India Briefing",
+      "published": "Sat, 16 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Rajasthan Gets First Semiconductor Plant As SME-Led Chip Facility By Sahasra Semiconductors Inaugurated At Bhiwadi - Swarajya",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNOHdQRDU0aTVCWWxmLXl0OU1XRjZ3NGExSk1YQlpQdE5yWVBTaXloRmJXcEw3LXd6NG9xVGFkNVIzb2xhS2hVaDAwS3NTTVlNVlBjNU4tMDI1c3VXUEJDRC0tR2xETjVEblB1LTV6czRjN0RJX0RUQks1LWhJZHZyR3JBaDg3SEtIUDZxOGNHZ2NrcG1DU3MxZHNNRjVteXVBZGNRUW9YNGlZTGlUaXdRa1BHanBBbHdmRDBDcEt1YU5hdXJDNmZoM1Jmcm4xRzdqWkdkVFpWWEdqZVlidkU2eXpfc015SG_SAfcBQVVfeXFMUEpqZDJ3MVM1TTVEeXNHQUFPN2w3d2ZkN1F5UjhnajFWdG8tZUN2MkFWcFVNcVJCXzFXWE42d1VpMEtrUUV0MkNIcVNGZlBEVDJqOHhwaklpcG1heUZmSElMSHF1c3JzVDJkY3EzS0hjZnhjZjlLd0RzUVpydzlNU19VMnZoRGVfalBWUk9mMTdURW00SHhFY19WREdWOWtrNUlwd240OGUyNC1lOFJpLVNSZmpMdktCM21BcVV3TnU4QjNpeE9wYkFjak54aHk0anNfWXppZEZVZUlHQlloMXBDVE5pZENOVnJ6Yy1lR2FNYV80dE5oTQ?oc=5",
+      "source": "Swarajya",
+      "published": "Fri, 15 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Rajasthan Opens Semiconductor Packaging Facility in Bhiwadi - EE Times India",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNVdiRjViTTZtZy0tUUdJbjlvZHJYZ2EwVUJYZmQ1dXZPb0kxMEktdTNhUWJHN3A5STJuQnJMcjkzSlRCcGpiV0MtbXA4OW8wUnRaeHBrLTFzUXJEOGliLTdTYjdmZDJoOGVJa1ZPRnZTUmtmcXZMeUlWNFowZXN4TTN5eFM4MnFRblNFUkd2STc?oc=5",
+      "source": "EE Times India",
+      "published": "Mon, 18 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Rajasthan gets its first semiconductor manufacturing facility - constructionweekonline.in",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVGx2ZVFWWUVDWUVhUk9CT1FBbjBPQmZnV0o5Y3dqR3NNRDFBLXFmVVZpY3lhbjQySmJ6SWhVMkE3aFJXX0VHdFI2dDd1YnN6U2l6NFFybjN0Rko0LTY2TC1jbjFlcnRKVWFkN0hCOXN0V0VmZkkyRGRuZWQwcGExU3c2VGRFX1RwREoyNk9WUzJxTE1pS0VFejE1Q3ItT3lUc2J0RjZJNA?oc=5",
+      "source": "constructionweekonline.in",
+      "published": "Mon, 18 May 2026 07:00:00 GMT"
+    }
+  ],
+  "14": [
+    {
+      "title": "Cabinet approves two more semiconductor manufacturing units with cumulative investment of more than Rs. 3,900 crore - PM India",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdEJuVXVWWTVnTVBDN3VUdElVSnEzZXlSNi1ValFLZDdwbTFxMmJKU1JORHN3Wm51UzA1d19TMHRoV0h5c3FabVBCMmFEdS16MHJ3WmRTQWpCRF93czVpQjFIdDNfSFo5N0Zod283bldNWlBCOHlsTVJNSGc0U3EyZmZCWVJiMjQyY3hKMVBGRWN0MzNMRFZiekZzRWdqck5KS2tBMGJFZWgtWXNDMmowSWJmUzE3ZEZiLWo0VlpVb1NPVUhHT0hNWGE2MXBfLUJYYW1vMVRJcF94VmtJUHlsMzAzNVYxQ3NYcy0zQVhB?oc=5",
+      "source": "PM India",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Centre approves Suchi Semicon, Crystal Matrix's chip units with over ₹3,900 crore investment - ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcmVCUXViX0VHbVUtdVhqWW1BX2wyc09nNEVXdllFQ2M4c01qblExZGk1WE9wYlZHVWlGZTk2bXNoT3F4bkwzLXJ5QlM2M2ZRQ0hqcms1WTZnbVM5ZjBnNFYzU0dNZ1I0UjVneHBpVmNEV2NyYm1GSkZwRU4taHpNa1ZZb21vNDg5OHYzdm14SHI5eThYTGtwR1p2aHpjVUVUN1Jkb2o4SEROT1hwcWhWdVdfWGFLa0M3bXk3bXQxMTZORndTRWwwalZKVWFTbGVsOVh4RNIB2gFBVV95cUxQT1U0VXQ0bkZMWTRXenpKV09GNHpKNDY0TEsydFJHeXF0MUdfNXVEVlJzWXdFdXhkalFlTTVYeFZmemZqc0hEbXJSZVE5U0tCYkFIY1QyVlBuXzVUdUpQelhfQTBJVlZWeXBMdHYtaFl0OVpEZFNYT1dCQjY4aDY2MW5TN2J6N3VJa3dWcTlOanlMR3RlajJEOHQ2SDY0N2RUWU5jM3N3bGRCTkRkb1RzRjgza19QcFB2c21mN0RsY3JRNWEwX3BDbk9Sbk1XLTZlSW11MTBZZXdqQQ?oc=5",
+      "source": "ET Telecom",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Cabinet approves two more semiconductor manufacturing units in Gujarat with cumulative investment of over Rs 3,900 crore - ANI News",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWEtUejB0bnhpSkxFc3pZc0t1VVljMW1pZVJCRXRHdVFFbFFRUHliNnNISDZHZmNoQ3JxcEFUeFZKY2MzTTI4dVhYRGhSd1JBWkktYnZuUHY5bTYtWi1vVkZOTktFcFliSDhveTNyRm4zb0M2OFJsR0hBeUJrZEJ5RDZMSjIySGVnTmhQR1ZZLVAzbi1fblFSaWRpVUJDeWRBUzJaSERrY3pWZFBvRnY2TlhRTFVtQlJBTXkxeVBFcEtpSFlSMUpXQUpXMGl2bXRPbUJ4ako0X0tnZjZYNVY1aDRzLWNlUzg1QVkwVXBVY3c0US1VY1c4VldRUF83LWc?oc=5",
+      "source": "ANI News",
+      "published": "Tue, 05 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Cabinet clears two chip plants worth Rs 3,936 crore under ISM; one could be India’s first commercial display facility - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTnZyWFdoSXZUU0ZQZXlaOWNpMFlYRVZOeTBlNW5rM29zWGVUM2NTbWYzSE5jYjNfb0hGOHZxbEdzOGtGTWV5dVRtWHdZdkFuMUhxSTN2WXE4RVFIYXVHUXJnc1RfeEtjVnRUdS1CbXEzUEJiYXB1Z1pBRXZ5eVh6MDExVUVqT0ZlTjF0TmhZMHB5YkpvMGhfRHlTSHRPMi0xYjhMQi04THhUQkZQNE9YaDVZd3Z1V3I2bTdPSzZDSThSX18xOV9lbnNvMHU2eHh0ZUNWTkpPVFA0TlNEMFNrSlMxbl9sZGZ3ZUNVMlh5ODdDOHo4aXAydlRZONIBggJBVV95cUxPb3ZRcWdOUUo4M1dwc2RCN3p3ZXJKczltSXJVblUtZVRnRmRJY0VhRkFDalVvSHZaQjdmbnpwZlpfbG53Y1Y5M1B0WDEyOUp4SDNlZGRGRWN4TUpJRk9DODlKT1pfVTBPTEp4SXFUWmpBVDVabWtmZnk4aTdMWF9oUUNtNzQzSzBRbEVNZ01KMkR4SnhVTVFjVW5iTVM3ZjEyZ3o1Mlp4QURvbTBkME1GOTE1eTBMNktRZ1NvRF9lRmREaW5ROEk2MXNCeEFCSzI1TjhSSUNnU1FvWW91ZUVfal9uU05jSGFoR2hua3U1MnQ4MG1obnFMQXNZb1pZb0FjSHc?oc=5",
+      "source": "The Indian Express",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Government approves two more semiconductor plants in Gujarat with over Rs. 3,900 crore investment - FoneArena.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVVpSk9iUy10WUdEdlJTZU9GeHByaVNvd0xpQmNRQk5Bb19HX1FtZWRqcGFtNWtSdFJVT3dEMEZDZHBNZFVsTzl3VFNEdDZxWmg4Wjl0RmpSUndxN3dUVUhmVVN5SFJPU2FkcWk4V2VjTi1DVzZKTkYtbkZrMFBSUlF0eE9JdGZnRWFpNUxqMGZZYmdRQXfSAZsBQVVfeXFMUDJoOHUteTdUQjluMEV2cktJa21nNGF0ZHUwU2ZYc0RvZUJYYVRBSWp1Q2l0d1VOU2dKRWFxMnFwejVxYThZYlJ5NzN6S2RlRlJzY25GZUwwQk4yaXNSSXdDTzZSOEpFX2pkdW5QekVNS3BxQWt5ZDA4V2JoZ2xQUm5MSWtQR0VoWEtJLV8zZDNXTVVHcjVETnBnb00?oc=5",
+      "source": "FoneArena.com",
+      "published": "Wed, 06 May 2026 07:00:00 GMT"
+    }
+  ],
+  "15": [
+    {
+      "title": "Groundbreaking of India’s First Advanced 3D Semiconductor Packaging Unit in Odisha; Major Boost to AI, 5G and Defence Tech - PIB",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hVHFQUWpXZXdfd244czdNam1OUmVRdEpjc2VXaDQ5NXJLUExsTGttSklvYWxNUExWZHo0WXNZWFZLa3RTYkM0TVAxeWpXcjIxUnlQX3JGSGxpM1R5TnpoZ0EzQzRlUm54WWVaSGs3Rk1ZMDFGcHhfLVB3?oc=5",
+      "source": "PIB",
+      "published": "Sun, 19 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "3D Glass Semiconductor Packaging - INSIGHTS IAS",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ004UEZXb1dxSHF4ckY1dEEzbUpkenpSRUJaLWxZcmlRS1RCVDQ3RFZqQWd6YTlVLVpVUEl2UGxhMFVMZXZ0al9QbGVBMnRPa0xBb245NmxwMUxQUlM1d0Q0TUtibi1zVjRJeS1NUWdJeGkxMXNVcURhSVpHZlRyS2hR?oc=5",
+      "source": "INSIGHTS IAS",
+      "published": "Tue, 21 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "3D Glass Semiconductor: India’s Chip Tech Breakthrough - Vajiram & Ravi",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUGlNZUI1SThjbk1Ha2Ffckk1ZDc4SkVDZGpGcDN5N0dNaVEtMlhpU1FhNXRTcTdsS0ZaS21odHpkbUxPb012eWoyWWRuZWRVeFBZa0N6T0NfZW4wS2Rlc284blVlOFFQOGN2d1hZdlk5R3Ba?oc=5",
+      "source": "Vajiram & Ravi",
+      "published": "Wed, 22 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "India's 1st advanced 3D glass chip packaging unit to come up in Bhubaneswar - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLXZrc3IxRVBEcGlPLVFEdnJfR0xFdUc5elVvNWJuaDNCeXRrdTNDQWlQRUwwNXh0NTk1TW0xYlM3aGpHUEZ0S2JOc3BlOXU0N01DSjZEMUNGUmh0TC1LTEdvY2Y4WmhLQ3lSMGV3VmQxQ0h5emVGZW5tVHlCYkZ4SFh1NjFJZVdQTkhMUXJLYWFDQXJaMEd2XzlXWnRKUjJpVjBOOGJSbWZDakw1OG1jVlRTQmVXaFphcC1wOXJqM0ZsZGpybklEUEVCYmN2aDEzNmdERUtlNlNXNlnSAeABQVVfeXFMUGZFUWRpRE5iYUFwUF81elI0ck1uVjRyZEVqRTh3c3JVMXdMRWwtZHdJZ0xmLW5VMXk4TDI2b1ZuY05iU1pNQkFDeVJ1ckJaRmxHQUx4YUtVUjNZblF4azJaMDNWYTB3SVJYUUFLWVhnMndlajlLT0dFTG9XZmNjV0F3NkVhYVhCSmQ3THpsVk1OSVY2QTZweTNxQWQzWHpNNVZTbUE0bGQ0Tm5fNlpwZzVqX2ZTN1RCRzJRemg3WWRxM0RBSEQ2ZlZRR3NlblVqZ1ZhWDFjLTZBcFhTSDF0ZjA?oc=5",
+      "source": "Business Standard",
+      "published": "Sun, 19 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "India is building its first advanced 3D semiconductor packaging unit, and a US firm is putting nearly ₹2,000 crore behind it. But what does it actually mean for India's place in the global chip race, and is this the beginning of something much larger? The Bhuban - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcjN0UDNsN3lBY29KWWNSckVHbk5hMS1xU19TUGEtUzBFdlpySDRwTzY0enNEWlRUSy11Q01OdkM2ZWYtX0pOMVpyMnVQVHBrUzJWcU9OSGpLRDlVVkNjOTdWNy1yV18wSGY5UjJ6Q01Wa1NXc2Fib213cnVXU09fSG9XcHBKRzBwQkotX0RZQUJWVVpMOFRMdjdMdE5BT05QMXhlbXYxT0xOUkFSb21POEJhbTZkdDBZNDZKdjNmRmRyai1FWlJNU3FPbw?oc=5",
+      "source": "LinkedIn",
+      "published": "Mon, 20 Apr 2026 07:00:00 GMT"
+    }
+  ],
   "_meta": {
-    "fetchedAt": "2026-10-02T05:59:14.111976+00:00",
-    "statusHints": {}
+    "fetchedAt": "2026-10-03T05:32:32.283326+00:00",
+    "statusHints": {
+      "8": [
+        "progress: 'foundation'"
+      ],
+      "13": [
+        "milestone: 'inaugurated'",
+        "milestone: 'operational'"
+      ],
+      "15": [
+        "progress: 'groundbreaking'"
+      ]
+    }
   }
 }
